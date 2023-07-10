@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Funções Factory</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <script>
+
+        let frutas = ['Abacaxi', 'Uva', 'Pera', 'Mamão']
+        
+        // destructuring
+
+        // let [a, b, , d] = frutas // podemos pular um índice
+        // let [a, b = 'Abacate', c, d, e = 'Banana'] = frutas
+        // console.log(a, b, c, d, e)
+
+        let coisas = [['Abacaxi', 'Uva', 'Pera', 'Mamão'], ['José', 'Maria']]
+        let [, [, b1]] = coisas
+        let [[, , a3], []] = coisas
+
+        console.log(b1)
+        console.log(a3)
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

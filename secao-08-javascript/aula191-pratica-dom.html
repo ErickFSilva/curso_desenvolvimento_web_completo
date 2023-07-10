@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style type="text/css">
+        .container {
+            margin-bottom: 20px;
+            height: 100px;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cor1-bg {
+            background-color: #d2691e;
+        }
+
+        .cor2-bg {
+            background-color: #cde7ff;
+        }
+
+        .cor3-bg {
+            background-color: #47941b;
+        }
+    </style>
+</head>
+<body class="p-3">
+
+    <section class="mb-3 p-3 border">
+        <h4 class="border rounded bg-secondary text-light p-2 m-2">Manipulando valores de inputs</h4>
+
+        <input type="number" id="campoMultiplica">
+        <input type="number" id="campoMultiplicado" disabled>
+        <button type="button" onclick="multiplica2()" class="btn btn-primary">Calcular x2</button>
+        <button type="button" onclick="limpar()" class="btn btn-warning">Limpar</button>
+    </section>
+
+    <script>
+
+        function multiplica2() {
+            var valor = document.getElementById('campoMultiplica').value
+            valor *= 2
+            document.getElementById('campoMultiplicado').value=valor
+        }
+
+        function limpar() {
+            document.getElementById('campoMultiplica').value=''
+            document.getElementById('campoMultiplicado').value=''
+        }
+
+    </script>
+    
+
+    <section class="mb-3 p-3 border">
+        <h4 class="border rounded bg-secondary text-light p-2 m-2">Manipulando estilos de elementos</h4>
+
+        <div id="conteudo" class="container">
+            Conteúdo
+        </div>
+
+        <button type="button" onclick="mudaCor1()" class="btn cor1-bg"></button>
+        <button type="button" onclick="mudaCor2()" class="btn cor2-bg"></button>
+        <button type="button" onclick="mudaCor3()" class="btn cor3-bg"></button>
+    </section>
+
+    <script>
+
+        function mudaCor1() {
+            document.getElementById('conteudo').style.backgroundColor='#d2691e'
+        }
+
+        function mudaCor2() {
+            document.getElementById('conteudo').style.backgroundColor='#cde7ff'
+        }
+
+        function mudaCor3() {
+            document.getElementById('conteudo').style.backgroundColor='#47941b'
+        }
+
+    </script>
+
+
+    <section class="mb-3 p-3 border">
+        <h4 class="border rounded bg-secondary text-light p-2 m-2">Atividades para fixação do conteudo</h4>
+
+        <input type="text" id="campo" class="form-control w-50" onclick="campoEmFocu()" onblur="campoSemFocu()" placeholder="Digite aqui!">
+    </section>
+
+    <script>
+
+        function campoEmFocu() {
+            document.getElementById('campo').style.backgroundColor='#FFFACD'
+        }
+
+        function campoSemFocu() {
+            var valorCampo = document.getElementById('campo').value
+            
+            if (valorCampo == '') {
+                document.getElementById('campo').style.backgroundColor = '#f7f7f7'
+            }
+            else if (valorCampo.length < 3) {
+                document.getElementById('campo').style.backgroundColor = '#FF6A6A'
+                // document.getElementById('campo').value = 'Digite 3 caracteres ou main)'
+            }
+            else if (valorCampo.length >= 3) {
+                document.getElementById('campo').style.backgroundColor = '#98FB98'
+            }
+
+        }
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

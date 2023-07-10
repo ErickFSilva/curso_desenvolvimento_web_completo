@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Funções Factory</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">>
+</head>
+<body>
+
+    <script>
+
+        Object.prototype.attr50 = 'Z'
+
+        let animal = {
+            attr1: 'a'
+        }
+
+        let vertebrado = {
+            __proto__: animal,
+            attr2: 'b'
+        }
+
+        let ave = {
+            __proto__: vertebrado,
+            attr3: 'c',
+            attr2: 'x'
+        }
+
+        console.log(ave.attr3)
+        console.log(ave.attr2)
+        console.log(ave.attr1)
+        console.log(ave.attr50)
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

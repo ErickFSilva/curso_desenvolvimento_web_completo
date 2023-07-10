@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="p-3">
+
+        <script>
+    
+            /** Existem três tipos de escopo em JavaScrip:
+             * 
+             * 1. Global: é o escopo do scripit como um todo;
+             * 2. Função: corresponde ao conteúdo inserido dentro de um bloco de função;
+             * 3. Bloco: são as instruções contidas dentro de comandos, como no IF, SWITCH...
+             */
+            
+            var serie = 'Friends'
+
+            if (true) {
+                var serie2 = 'GOT' // sofrerá elevação para o escopo global
+
+                document.write(serie)
+                document.write(serie2)
+                // document.write(serie3)
+            }
+
+            document.write('<br>')
+
+            function x() {
+                var serie3 = 'TWD' // - não sofrerá elevação para o escopo global
+
+                document.write(serie)
+                document.write(serie2)
+                document.write(serie3)
+            }
+            x()
+
+            document.write('<br>')
+            // document.write(serie3)
+    
+        </script>
+
+    </div>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

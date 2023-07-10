@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-8 offset-xl-2 border p-3 mb-3">
+                <input type="text" id="buscaCampo" class="form-control mb-2">
+                <button id="botaoBusca" class="btn btn-info" onclick="buscaElemento()">Pesquisar</button>
+                <textarea id="resultado" class="border-0 d-block mt-2 p-2 w-100"></textarea>
+            </div>
+    
+            <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-8 offset-xl-2 border p-3">
+                <input type="text" id="cadastraCampo" class="form-control mb-2">
+                <button id="botaoBusca" class="btn btn-info" onclick="cadastraElemento()">Cadastrar</button>
+            </div>
+    
+        </div>
+    </div>
+
+    <script>
+
+        var listaFrutas = []
+
+        listaFrutas[0] = 'Banana'
+        listaFrutas[1] = 'Maçã'
+        listaFrutas[2] = 'Morango'
+        listaFrutas[3] = 'Uva'
+
+        // pesquisar dentro do array
+        // retornará a chave na posição em que está o elemento, retornando -1 se o mesmo não existir
+        function buscaElemento() {
+            
+            var buscaCampo = document.getElementById('buscaCampo').value
+            document.getElementById('buscaCampo').value = ''
+
+            var posicaoArray = listaFrutas.indexOf(buscaCampo) // a busca é case sencitive
+
+            if (posicaoArray === -1) {
+                document.getElementById('resultado').value = `Elemento, ${buscaCampo}, não existe`
+            }
+            else {
+                document.getElementById('resultado').value = `Elemento, ${buscaCampo}, existe e está na posição ${posicaoArray}`
+            }
+
+        }
+
+        // cadastra elementos no array
+        function cadastraElemento() {
+            
+            var elementoArray = document.getElementById('cadastraCampo').value
+            document.getElementById('cadastraCampo').value = ''
+
+            listaFrutas.push(elementoArray)
+            console.log(listaFrutas)
+
+        }
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="p-3">
+
+        <h2>Operadores aritméticos</h2>
+
+        <ul class="navbar-nav">
+            <li><strong>Adição (+): </strong>Soma valores numéricos ou concatena valores que contenham String</li>
+            <li><strong>Subtração (-): </strong>Diferença entre valores</li>
+            <li><strong>Multiplicação (*): </strong>Produto dos valores</li>
+            <li><strong>Divisão (/): </strong>Quociente dos valores</li>
+            <li><strong>Módulo (%): </strong>Resto existente em uma operação de divisão</li>
+            <li><strong>Incremento (++): </strong>Pré/pós incremento</li>
+            <li><strong>Decremento (--): </strong>Pré/pós decremento</li>
+        </ul>
+
+        <hr>
+
+        <script>
+    
+            var num1 = prompt('Digite o valor para num1')
+            var num2 = prompt('Digite o valor para num2')
+
+            num1 = parseInt(num1)
+            num2 = parseInt(num2)
+    
+            document.write(`A soma de ${num1} + ${num2} = ${num1+num2}<br>`)
+            document.write(`A subtração de ${num1} - ${num2} = ${num1-num2}<br>`)
+            document.write(`A multiplicação de ${num1} * ${num2} = ${num1*num2}<br>`)
+            document.write(`A Divisão de ${num1} / ${num2} = ${num1/num2}<br>`)
+            document.write(`O incremento de ${num1} = ${++num1}<br>`)
+            document.write(`O incremento de ${num1} = ${num1++}<br>`)
+            document.write(num1 + '<br>')
+            document.write(`O decremento de ${num1} = ${--num1}<br>`)
+            document.write(`O decremento de ${num1} = ${num1--}<br>`)
+            document.write(num1 + '<br>')
+    
+        </script>
+
+    </div>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

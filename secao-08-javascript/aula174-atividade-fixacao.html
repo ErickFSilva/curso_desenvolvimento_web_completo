@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="p-3">
+
+        <script>
+    
+            var name = prompt("What's your name?")
+            var height = parseFloat(prompt("What's your height, in cm?"))
+            var weight = parseFloat(prompt("What's your weight?"))
+            var result = ''
+
+            height /= 100
+
+            massa = weight / (height * height)
+
+            if (massa < 16) {
+                result = 'Baixo peso, muito grave'
+            }
+            else if (massa >= 16 && massa < 16.99) {
+                result = 'Baixo peso, grave'
+            }
+            else if (massa >= 17 && massa < 18.49) {
+                result = 'Baixo peso'
+            }
+            else if (massa >= 18,50 && massa < 24.99) {
+                result = 'Peso normal'
+            }
+            else if (massa >= 25 && massa < 29.99) {
+                result = 'Sobrepeso'
+            }
+            else if (massa >= 30 && massa < 34.99) {
+                result = 'Obesidade grau I'
+            }
+            else if (massa >= 35 && massa < 39.99) {
+                result = 'Obesidade grau II'
+            }
+            else if (massa >= 40) {
+                result = 'Obesidade grau III'
+            }
+
+            document.write(`${name} possui índice de massa corporal igual a ${massa}, sendo classificado como ${result}`)
+    
+        </script>
+
+    </div>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

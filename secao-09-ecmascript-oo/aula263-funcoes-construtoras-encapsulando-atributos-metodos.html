@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <script>
+
+        let Carro = function() {
+
+            this.cor = 'Amarelo'
+            this.modelo = 'Chevette'
+            this.velocidadeAtual = 0
+            // Escondendo as variáveis
+            let velocidadeMaxima = 180
+            let quilometrosRodados = 0
+
+            this.acelerar = function() {
+                let velocidade = this.getVelocidadeAtual() + 50
+
+                if (velocidade > velocidadeMaxima) {
+                    velocidade = velocidadeMaxima
+                }
+
+                this.setVelocidadeAtual(velocidade)
+                
+                setQuilometrosRodados(0.07)
+                console.log(quilometrosRodados)
+            }
+
+            this.getVelocidadeAtual = function() {
+                return this.velocidadeAtual
+            }
+
+            this.setVelocidadeAtual = function(vAtual) {
+                this.velocidadeAtual = vAtual
+            }
+
+            let setQuilometrosRodados = function(q) {
+                quilometrosRodados += q
+            }
+
+        }
+
+        let carro = new Carro()
+
+        console.log(carro.getVelocidadeAtual())
+        carro.velocidadeMaxima = 280
+        carro.acelerar()
+        carro.acelerar()
+        carro.acelerar()
+        carro.acelerar()
+        console.log(carro.getVelocidadeAtual())
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

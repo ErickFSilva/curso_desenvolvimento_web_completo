@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <p class="border">
+        Largura: <span id="largura"></span>px<br>
+        Altura: <span id="altura"></span>px
+    </p>
+
+    <button onclick="abrirPopUp()" class="btn btn-info">Abrir janela</button>
+    <button onclick="fecharPopUp()" class="btn btn-warning">Fechar janela</button>
+    <button onclick="print()" class="btn btn-light border">Imp. página</button>
+
+    <script>
+
+        var janela
+        var largura = window.innerWidth
+        var altura = window.innerHeight
+
+        document.getElementById('largura').innerHTML = largura
+        document.getElementById('altura').innerHTML = altura
+
+        // console.log(largura)
+        // console.log(altura)
+
+        function abrirPopUp() {
+            janela = window.open('https://site.joseliaqueiroga.adv.br', 'Joselia Queiroga Advocacia', "width=largura, height=altura")
+            console.log('Janela aberta!')
+        }
+
+        function fecharPopUp() {
+            
+            try {
+                janela.close()
+                console.log('Janela fechada!')
+            }
+            catch(e) {
+                alert('Não há janela aberta!')
+            }
+            finally {
+                janela = ''
+            }
+        }
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

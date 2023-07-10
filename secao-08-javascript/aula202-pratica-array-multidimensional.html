@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <input type="text" id="saidaDados1" class="form-control w-25" disabled>
+    <input type="text" id="saidaDados2" class="form-control w-25" disabled>
+
+    <script>
+
+        var veiculos = Array()
+
+        veiculos['marcas'] = ['Chevrolet', 'Ford', 'Fiat', 'Volkswagen']
+        console.log(veiculos['marcas'])
+
+        veiculos['modelos'] = ['Onix', 'Ka', 'Mobi', 'Gol']
+        console.log(veiculos['modelos'])
+
+        document.getElementById('saidaDados1').value = veiculos['marcas'][0]
+        document.getElementById('saidaDados2').value = veiculos['modelos'][0]
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

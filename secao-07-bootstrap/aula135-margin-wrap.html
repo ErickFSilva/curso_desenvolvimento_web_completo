@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <style type="text/css">
+        .caixa {
+            height: 200px;
+            background-color: #f5f5f5;
+        }
+
+        .item {
+            padding: 5px;
+            border: 1px solid rgb(69, 10, 136);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container pb-3">
+
+        <!-- Margin left/right auto -->
+        <h2 class="border rounded my-3 p-3 bg-primary text-white">
+            Margin left/right auto (ml-auto, mr-auto)
+        </h2>
+        <div class="caixa d-flex">
+            <div class="item ml-auto">Flex item 1</div>
+            <div class="item mr-auto">Flex item 2</div>
+            <div class="item ml-auto mr-auto">Flex item 3</div>
+        </div>
+
+
+        <!-- Margin top/bottom auto -->
+        <h2 class="border rounded my-3 p-3 bg-primary text-white">
+            Margin top/bottom auto (mt-auto, mb-auto)
+        </h2>
+        <div class="caixa d-flex">
+            <div class="item mt-auto">Flex item 1</div>
+            <div class="item mb-auto">Flex item 2</div>
+            <div class="item mt-auto mb-auto">Flex item 3</div>
+        </div>
+
+
+        <!-- Wrap (flex-wrap, flex-nowrap) -->
+        <h2 class="border rounded my-3 p-3 bg-primary text-white">
+            Wrap (flex-wrap, flex-nowrap)
+        </h2>
+        <div class="caixa d-flex flex-wrap">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+            <div class="item">Flex item 4</div>
+            <div class="item">Flex item 5</div>
+            <div class="item">Flex item 6</div>
+            <div class="item">Flex item 7</div>
+            <div class="item">Flex item 8</div>
+            <div class="item">Flex item 9</div>
+            <div class="item">Flex item 10</div>
+            <div class="item">Flex item 11</div>
+            <div class="item">Flex item 12</div>
+            <div class="item">Flex item 13</div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <script>
+
+        class ContaBancaria {
+
+            // Construtor
+            constructor() {
+                this.agencia = 1075
+                this.numeroConta = 5431672
+                this.saldo = 50
+                this.limite = 450
+            }
+
+            // Métodos
+            depositar(vlrDeposito) {
+                this.saldo += vlrDeposito
+            }
+
+            sacar(vlrSaque) {
+                this.saldo -= vlrSaque
+            }
+
+            consultarSaldo() {
+                return this.saldo
+            }
+            
+        }
+
+        let conta1 = new ContaBancaria()
+        let conta2 = new ContaBancaria()
+
+        console.log(conta1.consultarSaldo())
+        document.write(`Saldo: ${conta1.consultarSaldo()}<br>`)
+
+        conta1.depositar(450)
+
+        console.log(conta1.consultarSaldo())
+        document.write(`Saldo: ${conta1.consultarSaldo()}<br>`)
+
+        conta1.sacar(300)
+
+        console.log(conta1.consultarSaldo())
+        document.write(`Saldo: ${conta1.consultarSaldo()}<br>`)
+
+        console.log(conta2.consultarSaldo())
+        document.write(`Saldo: ${conta2.consultarSaldo()}<br>`)
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

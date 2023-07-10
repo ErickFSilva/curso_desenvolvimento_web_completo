@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <script>
+
+        // Objeto literal
+        let a1 = {
+            cor: 'Branco',
+            modelo: 'Airbus a380',
+            lavantarVoo: function() {
+                console.log('Levantar Voo')
+            }
+        }
+
+
+        // Função construtora
+        let AviaoF = function() {
+            this.cor = 'Azul',
+            this.modelo = 'Boeing 787',
+            this.levantarVoo = function() {
+                console.log('Levantar Voo')
+            }
+        }
+
+        let a2 = new AviaoF()
+
+
+        // Classe
+        class AviaoC {
+
+            constructor() {
+                this.cor = 'Vermelho'
+                this.modelo = 'Embraer E-Jets'
+            }
+
+            levantarVoo() {
+                console.log('Levantar Voo')
+            }
+
+        }
+
+        let a3 = new AviaoC()
+
+
+        console.log(a1)
+        console.log(a2)
+        console.log(a3)
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

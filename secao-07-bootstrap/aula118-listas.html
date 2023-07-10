@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible: IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="m-3">
+
+        <!-- Listas -->
+        <h4 class="mt-3">Listas</h4>
+        <ul class="list-group">
+            <li class="list-group-item">My list item 1</li>
+            <li class="list-group-item active">My list item 2</li>
+            <li class="list-group-item">My list item 3</li>
+            <li class="list-group-item">My list item 4</li>
+        </ul>
+
+
+        <!-- Lists with class flush -->
+        <h4 class="mt-3">Lists with class flush</h4>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item active">My list item 1</li>
+            <li class="list-group-item">My list item 2</li>
+            <li class="list-group-item">My list item 3</li>
+            <li class="list-group-item">My list item 4</li>
+        </ul>
+
+        
+        <!-- Lists with links -->
+        <h4 class="mt-3">Lists with links</h4>
+        <ul class="list-group">
+            <a class="list-group-item" href="#">My list item 1</a>
+            <a class="list-group-item" href="#">My list item 2</a>
+            <a class="list-group-item active" href="#">My list item 3</a>
+            <a class="list-group-item" href="#">My list item 4</a>
+        </ul>
+
+
+        <!-- Lists with contextual classes -->
+        <!-- 
+            - Classe: list-group-item-<opcoes>
+            -- Opções: primary, secondary, success, info, warning, danger, light, dark
+         -->
+        <h4 class="mt-3">Lists with contextual classes</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Listas normal</li>
+            <li class="list-group-item list-group-item-primary">Listas primary</li>
+            <li class="list-group-item list-group-item-secondary">Listas secondary</li>
+            <li class="list-group-item list-group-item-success">Listas success</li>
+            <li class="list-group-item list-group-item-info">Listas info</li>
+            <li class="list-group-item list-group-item-warning">Listas warning</li>
+            <li class="list-group-item list-group-item-danger">Listas danger</li>
+            <li class="list-group-item list-group-item-light">Listas light</li>
+            <li class="list-group-item list-group-item-dark">Listas dark</li>
+        </ul>
+
+
+        <!-- Lists with badge -->
+        <!-- 
+            - Classe: badge-<opcoes>
+            -- Opcções: primary (#007bff), secondary, success, info, warning, danger, light, dark
+         -->
+        <h4 class="mt-3">Lists with badge</h4>
+        <ul class="list-group">
+            <li class="list-group-item">
+                Caixa entrada <span class="badge badge-primary">120</span>
+            </li>
+            <li class="list-group-item">
+                Rascunhos <span class="badge badge-warning">2</span>
+            </li>
+            <li class="list-group-item">
+                Enviados <span class="badge badge-success">80</span>
+            </li>
+        </ul>
+
+
+        <!-- Breadcrumb -->
+        <h4 class="mt-3">Breadcrumb</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+        </ol>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">Notícias</li>
+        </ol>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Usuários</a></li>
+            <li class="breadcrumb-item">Erick Ferreira</li>
+        </ol>
+
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

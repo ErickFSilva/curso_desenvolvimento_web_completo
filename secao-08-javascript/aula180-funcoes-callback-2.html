@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="p-3">
+        <script>
+
+            function processaMediaAluno(id, resultadoMedia, erroMedia) {
+                var nome = prompt('Nome do aluno')
+                var nota1 = parseFloat(prompt('1ª nota'))
+                var nota2 = parseFloat(prompt('2ª nota'))
+                var media = 0
+
+                if (typeof nota1 == 'number' && typeof nota2 == 'number') {
+                    
+                    media = (nota1 + nota2) / 2
+
+                    if (media >= 7) {
+                        resultadoMedia(`${nome} está aprovado, média: ${media}`)
+                    }
+                    else if (media < 7 && media >= 5) {
+                        resultadoMedia(`${nome} está em recuperação, média: ${media}`)
+                    }
+                    else if (media >= 0 && media < 5) {
+                        resultadoMedia(`${nome} está reprovado, média: ${media}`)
+                    }
+                }
+                else {
+                    erroMedia('Número inválido!')
+                }
+                
+            }
+
+            var resultadoMedia = function(resultado) {
+                document.write(`<div class="p-3 border text-light bg-secondary">${resultado}</div>`)
+            }
+
+            var erroMedia = function(erro) {
+                alert(erro)
+            }
+
+            processaMediaAluno(1, resultadoMedia, erroMedia)
+            
+        </script>
+    </div>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <script>
+
+        var listaFrutas = Array()
+
+        listaFrutas[0] = 'Maçã'
+        listaFrutas[1] = 'Uva'
+        listaFrutas[2] = 'Banana'
+        listaFrutas[3] = 'Morango'
+
+        // ordenando elementos alfanuméricos no array
+        console.log(listaFrutas.sort()) // Específico para ordenação alfanumérica
+
+
+        var listaNumeros = []
+
+        listaNumeros[0] = 2002
+        listaNumeros[1] = '540'
+        listaNumeros[2] = 'abc'
+        listaNumeros[3] = 53
+        listaNumeros[4] = 1400
+
+        // ordenando elementos numéricos no array
+        console.log(listaNumeros.sort(ordenaNumeros))
+
+        function ordenaNumeros(a, b) { // função de callback
+            return a - b
+        }
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

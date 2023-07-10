@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <script>
+
+        var listaFrutas = []
+
+        listaFrutas[0] = 'Banana'
+        listaFrutas[1] = 'Maçã'
+        listaFrutas[2] = 'Morango'
+        listaFrutas[3] = 'Uva'
+
+        // pesquisar dentro do array
+        // retornará a chave na posição em que está o elemento, retornando -1 se o mesmo não existir
+            
+        var posicaoArray = listaFrutas.indexOf('Morango') // a busca é case sencitive
+
+        if (posicaoArray === -1) {
+            console.log('Elemento não existe')
+        }
+        else {
+            console.log(`Elemento existe e está na posição ${posicaoArray}`)
+        }
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

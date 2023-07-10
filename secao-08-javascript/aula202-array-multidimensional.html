@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body class="p-3">
+
+    <script>
+
+        var lista_coisas = Array()
+
+        lista_coisas['frutas'] = Array('Banana', 'Maçã', 'Morango', 'Uva')
+
+        lista_coisas['pessoas'] = Array()
+        lista_coisas['pessoas'][0] = 'João'
+        lista_coisas['pessoas'][1] = 'Carlos'
+        lista_coisas['pessoas'][2] = 'Pedro'
+        lista_coisas['pessoas'][3] = 'José'
+
+        console.log(lista_coisas)
+        document.write(lista_coisas)
+
+        console.log(lista_coisas['frutas'][1])
+        document.write(lista_coisas['frutas'][1] + '<br>')
+
+        console.log(lista_coisas['pessoas'][1])
+        document.write(lista_coisas['pessoas'][1])
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

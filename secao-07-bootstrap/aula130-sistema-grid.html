@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <style type="text/css">
+        .marcador-container {
+            border: 1px solid seagreen;
+            background: #5bf946;
+        }
+
+        .marcador {
+            border: 1px solid #f94646;
+            background: wheat;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tamanhos de didpositivos
+        
+        - Extra small: < 576px (col-)
+        - Small: >= 576px (col-sm-)
+        - Medium: >= 768px (col-md-)
+        - Large: >= 992px (col-lg-)
+        - Extra large: >= 1200px (col-xl-)
+
+    -->
+
+    <div class="container marcador-container">
+        <div class="row">
+            <div class="marcador col-6 col-sm-2 col-md-10 col-lg-2 col-xl-10">área 1</div>
+            <div class="marcador col-6 col-sm-10 col-md-2 col-lg-10 col-xl-2">área 2</div>
+        </div>
+    </div>
+
+
+    <div class="container marcador-container">
+        <div class="row">
+            <div class="marcador col-md-6">área 1</div>
+            <div class="marcador col-md-6">área 2</div>
+        </div>
+    </div>
+
+
+    <div class="container marcador-container">
+        <div class="row">
+            <div class="marcador col-md-6 col-xl-4">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra sapien facilisis semper rutrum. Proin augue ante, porttitor sollicitudin interdum vitae, convallis a quam. Donec blandit at orci vel pharetra. Maecenas et arcu ullamcorper magna dictum convallis sed vitae odio. Nam sodales ac velit eget dapibus. Suspendisse sollicitudin dignissim metus, vel sollicitudin libero ullamcorper ac.</p>
+                <button class="btn btn-info">Leia +</button>
+            </div>
+            <div class="marcador col-md-6 col-xl-4">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra sapien facilisis semper rutrum. Proin augue ante, porttitor sollicitudin interdum vitae, convallis a quam. Donec blandit at orci vel pharetra. Maecenas et arcu ullamcorper magna dictum convallis sed vitae odio. Nam sodales ac velit eget dapibus. Suspendisse sollicitudin dignissim metus, vel sollicitudin libero ullamcorper ac.</p>
+                <button class="btn btn-info">Leia +</button>
+            </div>
+            <div class="marcador col-md-12 col-xl-4">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra sapien facilisis semper rutrum. Proin augue ante, porttitor sollicitudin interdum vitae, convallis a quam. Donec blandit at orci vel pharetra. Maecenas et arcu ullamcorper magna dictum convallis sed vitae odio. Nam sodales ac velit eget dapibus. Suspendisse sollicitudin dignissim metus, vel sollicitudin libero ullamcorper ac.</p>
+                <button class="btn btn-info">Leia +</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

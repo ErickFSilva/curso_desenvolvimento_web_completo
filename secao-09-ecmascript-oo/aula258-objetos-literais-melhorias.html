@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style type="text/css">
+        .input-group-text {
+            width: 90px;
+        }
+    </style>
+</head>
+<body class="p-3">
+
+    <div class="container">
+        <form class="">
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-light bg-info">Nome</span>
+                </div>
+                <input type="text" id="nome" class="form-control">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-light bg-info">Idade</span>
+                </div>
+                <input type="number" id="idade" class="form-control">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-light bg-info">Sexo</span>
+                </div>
+                <select id="sexo" class="form-control">
+                    <option>Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text text-light bg-info">Profissão</span>
+                </div>
+                <select id="profissao" class="form-control">
+                    <option>Selecione</option>
+                    <option value="Programador-Fullstack">Programador Fullstack</option>
+                    <option value="Programador-FrontEnd">Programador Front-End</option>
+                    <option value="Programador-BackEnd">Programador Back-End</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+
+            <button type="button" class="btn btn-warning" onclick="enviar()">Enviar</button>
+
+        </form>
+    </div>
+
+    <script>
+
+        function enviar() {
+
+            let nome = document.getElementById('nome').value
+            document.getElementById('nome').value = ''
+
+            let idade = document.getElementById('idade').value
+            document.getElementById('idade').value = ''
+
+            let sexo = document.getElementById('sexo').value
+            document.getElementById('idade').value = ''
+
+            let profissao = document.getElementById('profissao').value
+            document.getElementById('idade').value = ''
+
+            let objeto = {
+                nome,
+                idade,
+                sexo,
+                profissao,
+                exibirResumo() {
+                    return `
+                    Nome: ${this.nome},
+                    Idade: ${this.idade} anos, 
+                    Sexo: ${this.sexo}, 
+                    Profissão: ${this.profissao}
+                    `
+                }
+            }
+
+            if (nome === '' || idade === '' || sexo === 'Selecione' || profissao === 'Selecione') {
+                alert(`O preenchimento de todos os campos são obrigatórios"`)
+            }
+            else {
+                alert(objeto.exibirResumo())
+            }
+
+        }
+
+    </script>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

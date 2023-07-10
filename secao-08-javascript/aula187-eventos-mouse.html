@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- 
+        Eventos - Mouse
+
+        1. onclick: é acionado quando o elemento é clicado;
+        2. ondblclick: é acionado quando o elemento é clicado duas vezes;
+        3. onmouseup: é acionado quando o click sobre um elemento é liberado;
+        4. onmouseover: é acionado quando o cursor do mouse sobrepoem um elemento;
+        5. onmouseout: é acionado quando o cursor do mouse sai da região da página ocupada pelo elemento;
+     -->
+
+    <div class="p-3">
+        <script>
+
+            function acao1() {
+                alert('Evento do mouse')
+            }
+
+            function acao2() {
+                alert('Evento do mouse')
+            }
+
+            function acao3() {
+                alert('Evento do mouse')
+            }
+
+            function acao4() {
+                alert('Evento do mouse')
+            }
+
+            function acao5() {
+                alert('Evento do mouse')
+            }
+    
+        </script>
+
+        <input type="text" onclick="acao1()" class="m-2 bg-light border w-50" placeholder="onclick">
+        <input type="text" ondblclick="acao2()" class="m-2 bg-light border w-50" placeholder="ondblclick">
+        <input type="text" onmouseup="acao3()" class="m-2 bg-light border w-50" placeholder="onmouseup">
+        <input type="text" onmouseover="acao4()" class="m-2 bg-light border w-50" placeholder="onmouseover">
+        <input type="text" onmouseout="acao5()" class="m-2 bg-light border w-50" placeholder="onmouseout">
+
+    </div>
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

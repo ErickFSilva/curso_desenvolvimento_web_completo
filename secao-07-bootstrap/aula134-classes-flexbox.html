@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <style type="text/css">
+        .caixa {
+            height: 200px;
+            background-color: #f5f5f5;
+        }
+
+        .item {
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h2 class="border rounded my-3 p-3 bg-info text-white">
+            Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)
+        </h2>
+        <div class="caixa d-flex flex-row-reverse">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+
+
+        <h2 class="border rounded my-3 p-3 bg-info text-white">
+            Alinhamento horizontal: justify-content-(start, center, end, around e between)
+        </h2>
+        <div class="caixa d-flex justify-content-around">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+
+
+        <h2 class="border rounded my-3 p-3 bg-info text-white">
+            Colunas (d-flex, flex-column, flex-column-reverse)
+        </h2>
+        <div class="caixa d-flex flex-column">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+        </div>
+
+
+        <h2 class="border rounded my-3 p-3 bg-info text-white">
+            Alinhamento vertical (align-items-[start, center, end, baseline e stretch])
+        </h2>
+        <div class="caixa d-flex align-items-baseline">
+            <div class="item" style="padding-top: 30px;">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item" style="padding-bottom: 50px;">Flex item 3</div>
+        </div>
+
+
+        <h2 class="border rounded my-3 p-3 bg-info text-white">
+            Alinhamento self (align-self-[start, center, end, baseline e stretch])
+        </h2>
+        <div class="caixa d-flex">
+            <div class="item align-self-start">Flex item 1</div>
+            <div class="item align-self-center">Flex item 2</div>
+            <div class="item align-self-end">Flex item 3</div>
+            <div class="item align-self-baseline">Flex item 4</div>
+            <div class="item align-self-stretch">Flex item 5</div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

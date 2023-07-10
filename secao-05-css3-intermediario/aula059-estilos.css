@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    margin: 0 auto;
+    width: 720px;
+}
+
+#marca {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: sandybrown;
+}
+
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#cont-princ {
+    width: 320px;
+    float: left;
+}
+
+#cont-secun {
+    padding: 0 20px;
+    width: 140px;
+    float: right;
+    background: wheat;
+}
+
+#navegacao {
+    padding: 20px 0;
+    width: 180px;
+    float: left;
+    background: cornflowerblue;
+}
+#navegacao ul {
+    list-style: none;
+}
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    padding: 5px;
+    background: saddlebrown;
+}
+
+.clear {
+    clear: both;
+}

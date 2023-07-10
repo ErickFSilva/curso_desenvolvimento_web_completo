@@ -13,27 +13,26 @@
 
     // string
     $nome = 'Erick Ferreira';
-    $idade = 35;
-    $peso = 80.6;
-    $programador = true;
 
-    if ($programador == true) {
-        $programador = 'Sim';
-    }
-    else {
-        $programador = 'Não';
-    }
+    // int
+    $idade = 35;
+
+    // float
+    $peso = 80.6;
+
+    // boolean
+    $programador = true;
 
 ?>
 
 <div class="container">
-    <h1 class="my-3 p-2 rounded bg-dark text-light">Ficha cadastral</h1>
+    <h1 class="my-3 p-2 rounded text-bg-dark">Ficha cadastral</h1>
 
     <ul class="list-group">
         <li class="list-group-item active">Nome: <?= $nome ?></li>
         <li class="list-group-item">Idade: <?= $idade ?></li>
         <li class="list-group-item">Peso: <?= $peso ?></li>
-        <li class="list-group-item">Programador: <?= $programador ?></li>
+        <li class="list-group-item">Programador: <?= $programador ? "Sim" : "Não" ?></li>
     </ul>
 </div>
 

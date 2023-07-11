@@ -12,11 +12,11 @@
 <?php
 
     $nome = 'Erick';
-    $estudo = 'Programação';
+    $materia = 'Programação';
     $profissao = 'Programador';
 
-    $texto = 'Olá ' . $nome . ', vejo que você estuda ' . $estudo . ' para atuar como ' .$profissao . '!';
-    $texto2 = "Olá $nome, vejo que você estuda $estudo para atuar como $profissao!";
+    $texto = 'Olá ' . $nome . ', vejo que você estuda ' . $materia . ' para atuar como ' .$profissao . '!';
+    $texto2 = "Olá $nome, vejo que você estuda $materia para atuar como $profissao!";
 
 ?>
 

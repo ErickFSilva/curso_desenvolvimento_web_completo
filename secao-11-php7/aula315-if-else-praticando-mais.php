@@ -11,62 +11,13 @@
     
 <?php
 
-    $usuarioCartaoLoja = true;
-    $valorCompra = 260;
-    $valorFrete = 50;
-    $descontoFrete = false;
-
-    if ($usuarioCartaoLoja == true && $valorCompra >= 100) {
-        $valorFrete = 0;
-        $descontoFrete = true;
-    }
-
-    $valorTotalPedido = $valorCompra + $valorFrete;
+    // 
 
 ?>
 
 <div class="container py-3">
 
-    <div class="card text-center w-75 m-auto border-light">
-        <div class="card-header bg-primary text-light">
-            <span class="h4">Detalhes do pedido</span>
-        </div>
-
-        <div class="card-body bg-light">
-            <p class="card-text mb-0">Possui cartão da loja? 
-                <span class="fw-bold">
-                    <?php
-                        if ($usuarioCartaoLoja) {
-                            echo 'Sim';
-                        }
-                        else {
-                            echo 'Não';
-                        }
-                    ?>
-                </span>
-            </p>
-
-            <p class="card-text">Recebeu desconto no frete? 
-                <span class="fw-bold">
-                    <?php
-                        if ($descontoFrete) {
-                            echo 'Sim';
-                        }
-                        else {
-                            echo 'Não';
-                        }
-                    ?>
-                </span>
-            </p>
-
-            <p class="card-text mb-0">Valor da compra: R$ <span class="fw-bold"><?= $valorCompra ?></span></p>
-            <p class="card-text">Valor do frete: R$ <span class="fw-bold"><?= $valorFrete ?></span></p>
-        </div>
-
-        <div class="card-footer bg-warning">
-            <div>Valor total do pedido: <span class="fw-bold">R$ <?= $valorTotalPedido ?></span></div>
-        </div>
-    </div>
+    <!--  -->
 
 </div>
 

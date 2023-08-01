@@ -16,11 +16,11 @@
     $valorFrete = 50;
     $descontoFrete = false;
 
-    if ($usuarioCartaoLoja == true && $valorCompra >= 100) {
+    if ($usuarioCartaoLoja && $valorCompra >= 100) {
         $valorFrete = 0;
         $descontoFrete = true;
     }
-    else if ($usuarioCartaoLoja == true && ($valorCompra >= 60 && $valorCompra < 100)) {
+    else if ($usuarioCartaoLoja && ($valorCompra >= 60 && $valorCompra < 100)) {
         $valorFrete = 20;
         $descontoFrete = true;
     }

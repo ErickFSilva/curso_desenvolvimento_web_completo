@@ -49,50 +49,59 @@
         $valorFloat = 15.35; // ou double também
         $valorString = '36.22';
         $valorBool = false;
+        $valorBool2 = true;
 
 
-        // casting para Float/Double
+        // Casting para Float/Double
         $valorIntFloat = (float) $valorInt;
         $valorStringDouble = (double) $valorString;
         $valorBoolDouble = (double) $valorBool;
+        $valorBoolDouble2 = (double) $valorBool2;
 
         echo '- Casting para Float/Double:<br>';
         echo $valorIntFloat . ' ' . gettype($valorIntFloat) . '<br>';
         echo $valorStringDouble . ' ' . gettype($valorStringDouble) . '<br>';
-        echo $valorBoolDouble . ' ' . gettype($valorBoolDouble) . '<br><hr>';
+        echo $valorBoolDouble . ' ' . gettype($valorBoolDouble) . '<br>';
+        echo $valorBoolDouble2 . ' ' . gettype($valorBoolDouble2) . '<hr>';
 
 
-        // casting para string
+        // Casting para string
         $valorIntString = (string) $valorInt;
         $valorFloatString = (string) $valorFloat;
         $valorBoolString = (string) $valorBool;
+        $valorBoolString2 = (string) $valorBool2;
 
         echo '- Casting para String:<br>';
         echo $valorIntString . ' ' . gettype($valorIntString) . '<br>';
         echo $valorFloatString . ' ' . gettype($valorFloatString) . '<br>';
-        echo $valorBoolString . ' ' . gettype($valorBoolString) . '<br><hr>';
+        echo $valorBoolString . ' ' . gettype($valorBoolString) . '<br>';
+        echo $valorBoolString . ' ' . gettype($valorBoolString2) . '<hr>';
 
 
-        // casting para int
+        // Casting para int
         $valorFloatInt = (int) $valorFloat;
         $valorStringInt = (int) $valorString;
         $valorBoolInt = (int) $valorBool;
+        $valorBoolInt2 = (int) $valorBool2;
 
         echo '- Casting para Int:<br>';
         echo $valorFloatInt . ' ' . gettype($valorFloatInt) . '<br>';
         echo $valorStringInt . ' ' . gettype($valorStringInt) . '<br>';
-        echo $valorBoolInt . ' ' . gettype($valorBoolInt) . '<br><hr>';
+        echo $valorBoolInt . ' ' . gettype($valorBoolInt) . '<br>';
+        echo $valorBoolInt2 . ' ' . gettype($valorBoolInt2) . '<hr>';
 
 
-        // casting para bool
+        // Casting para bool
         $valorIntBoolean = (bool) $valorInt;
         $valorFloatBoolean = (bool) $valorFloat;
         $valorStringBoolean = (bool) $valorString;
+        $valorStringBoolean2 = (bool) $valorString;
 
         echo '- Casting para Boolean:<br>';
         echo $valorIntBoolean . ' ' . gettype($valorIntBoolean) . '<br>';
         echo $valorFloatBoolean . ' ' . gettype($valorFloatBoolean) . '<br>';
-        echo $valorStringBoolean . ' ' . gettype($valorStringBoolean) . '<br><hr>';
+        echo $valorStringBoolean . ' ' . gettype($valorStringBoolean) . '<br>';
+        echo $valorStringBoolean2 . ' ' . gettype($valorStringBoolean2) . '<hr>';
 
     ?>
 

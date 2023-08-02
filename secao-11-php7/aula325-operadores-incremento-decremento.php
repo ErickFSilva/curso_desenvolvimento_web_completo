@@ -24,7 +24,7 @@
     <dl>
         <dt>Operadores:</dt>
             <dd><b>Pré-incremento (++$a)</b>: Adiciona uma unidade antes de retornar $a</dd>
-            <dd><b>Pós-incremento ($a++</b>: Retorna $a e depois adiciona uma unidade</dd>
+            <dd><b>Pós-incremento ($a++)</b>: Retorna $a e depois adiciona uma unidade</dd>
             <dd><b>Pré-decremento (--$a)</b>: Diminui uma unidade antes de retornar $a</dd>
             <dd><b>Pós-decremento ($a--)</b>: Retorna $a e depois diminui uma unidade</dd>
     </dl>

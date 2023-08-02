@@ -15,55 +15,39 @@
 </head>
 <body>
 
+<?php
+
+function calculaIR($salarioMensal) {
+
+    if ($salarioMensal >= 1903.99 && $salarioMensal <= 2826.65) {
+
+        return $valorIR = $salarioMensal * 0.075;
+    }
+    else if ($salarioMensal >= 2826.66 && $salarioMensal <= 3751.05) {
+
+        return $valorIR = $salarioMensal * 0.15;
+    }
+    else if ($salarioMensal >= 3751.06 && $salarioMensal <= 4664.68) {
+
+        return $valorIR = $salarioMensal * 0.225;
+    }
+    else if ($salarioMensal > 4664.68) {
+
+        return $valorIR = $salarioMensal * 0.275;
+    }
+    else {
+
+        return $valorIR = 'Isento';
+    }
+}
+
+$valorIR = calculaIR(3751.06);
+
+?>
+
 <div class="container py-3">
 
-    
-
-    <?php
-
-        function calculaIR($salario) {
-            $valorImposto;
-
-            if ($salario <= 1903.98) {
-                $valorImposto = 0;
-            }
-            else if ($salario >= 1903.99 && $salario <= 2828.65) {
-                $valorImposto = ($salario / 100) * 7.5;
-            }
-            else if ($salario >= 2826.66 && $salario <= 3751.05) {
-                $valorImposto = ($salario / 100) * 15;
-            }
-            else if ($salario >= 3751.06 && $salario <= 4664.68) {
-                $valorImposto = ($salario / 100) * 22.5;
-            }
-            else if ($salario > 4664.68) {
-                $valorImposto = ($salario / 100) * 27.5;
-            }
-
-            return $valorImposto;
-
-        }
-
-        $valorIR = calculaIR(2679.37);
-
-    ?>
-
-    <header class="mt-4">
-        <h1>Atividade de fixação</h1>
-    </header>
-    <hr>
-
-    <section>
-        <div class="card w-50 shadow-sm">
-            <div class="card-header text-center">
-                <div class="py-2 fw-bold fs-5">Imposto de Renda</div>
-            </div>
-            
-            <div class="card-text px-3 text-center">
-                <div class="py-2"><?= round($valorIR,2) ?></div>
-            </div>
-        </div>
-    </section>
+    <p>Valor do IR: <?= $valorIR ?></p>
 
 </div>
 

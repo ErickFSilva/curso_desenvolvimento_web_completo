@@ -17,21 +17,24 @@
 
 <div class="container py-3">
 
-    
-
     <?php
 
-        function exibirBoasVindas() {
-            echo '- Bem vindo ao curso de PHP -';
-        }
+    // Função do tipo void: função sem retorno;
+    function exibirBoasVindas() {
 
-        function calcularAreaTerreno($largura, $comprimento) {
-            $area = $largura * $comprimento;
-            return $area;
-        }
+        echo 'Bem-vindo ao curso de PHP!';
+    }
 
-        exibirBoasVindas();
-        $AreaTerreno = calcularAreaTerreno(10, 20);
+    exibirBoasVindas();
+
+    // Função com retorno
+    function calcularAreaTerreno($largura, $comprimento) {
+
+        $area = $largura * $comprimento;
+        return $area;
+    }
+
+    $AreaTerreno = calcularAreaTerreno(10, 20);
 
     ?>
 

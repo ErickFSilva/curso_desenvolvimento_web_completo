@@ -33,26 +33,27 @@
 
     <?php
 
-        $texto = 'Curso completo de PHP';
-        echo $texto.'<br><br>';
+        // Variável
+        $texto = 'curso completo de PHP';
+        echo "<p>$texto</p>";
 
         // String to lower
-        echo strtolower($texto).'<br>';
+        echo '<p>' . strtolower($texto) . '</p>';
 
         // String to upper
-        echo strtoupper($texto).'<br>';
+        echo '<p>' . strtoupper($texto) . '</p>';
 
         // Upper case first
-        echo ucfirst($texto).'<br>';
+        echo '<p>' . ucfirst($texto) . '</p>';
 
         // String length
-        echo strlen($texto).'<br>';
+        echo '<p>Total de caracteres: ' . strlen($texto) . '</p>';
 
         // String replace
-        echo str_replace('PHP', 'WEB', $texto).'<br>';
+        echo '<p>' . str_replace('PHP', 'full stack', $texto) . '</p>';
 
         // Sub string
-        echo substr($texto, 0, 14).'...';
+        echo '<p>' . substr($texto, 18, 20) . '</p>';
 
     ?>
 

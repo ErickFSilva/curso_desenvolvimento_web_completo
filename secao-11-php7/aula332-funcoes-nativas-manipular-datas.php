@@ -65,9 +65,29 @@
         echo '<hr>';
 
         // Atualizar o timezone default da aplicação
-        date_default_timezone_set('Europe/Moscow');
+        date_default_timezone_set('Europe/Berlin');
         echo '<p>Timezone atual: '.date_default_timezone_get().'</p>';
         echo '<p>Data/hora atual: '.date('d/m/Y H:i').'</p>';
+        echo '<hr>';
+
+        // Transformar datas textuais em segundos
+        $data_inicial = '2018-04-24';
+        $data_final = '2018-05-15';
+
+        // O timestamp tem a data padrão 1970/01/01. A função retorna segundos;
+        $time_inicial = strtotime($data_inicial);
+        $time_final = strtotime($data_final);
+
+        echo "Data inicial: $data_inicial";
+        echo '<br>';
+        echo "Data final: $data_final";
+        echo '<br>';
+
+        $dia = 24*60*60; // hora*min*seg
+        $diferenca_dias = ($time_final - $time_inicial) / $dia;
+
+        echo "A diferença em dias entre a data inicial e final são <b>$diferenca_dias</b> dias";
+        echo '<hr>';
 
         ?>
 

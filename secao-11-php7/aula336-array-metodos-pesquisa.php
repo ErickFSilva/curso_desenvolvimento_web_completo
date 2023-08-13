@@ -31,9 +31,11 @@
 
         <!--
 
-            Funções para pesquisa dentro de arrays:
-            - in_array(): retorna 'true' (1) ou 'false' (vazio) para a existência do que está sendo procurado;
-            - array_search(): retorna o índice do valor pesquisado, caso ele exista. Caso não, retorna um valor null, vazio;
+            - Funções para pesquisa dentro de arrays:
+
+            in_array(): retorna 'true' (1) ou 'false' (vazio) para a existência do que está sendo procurado;
+            
+            array_search(): retorna o índice do valor pesquisado, caso ele exista. Caso não, retorna um valor null, vazio;
 
         -->
 
@@ -53,7 +55,9 @@
 
             ?>
 
-
+            <!-- 
+                in_array(): retorna 'true' (1) ou 'false' (vazio) para a existência do que está sendo procurado;
+             -->
             <div class="m-3 p-3 border">
                 <h2 class="fs-5">in_array()</h2>
 
@@ -67,6 +71,9 @@
             </div>
 
 
+            <!-- 
+                array_search(): retorna o índice do valor pesquisado, caso ele exista. Caso não, retorna um valor null, vazio;
+             -->
             <div class="m-3 p-3 border">
                 <h2 class="fs-5">array_search()</h2>
 

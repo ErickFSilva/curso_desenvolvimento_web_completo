@@ -19,25 +19,39 @@
 <div class="container py-3">
 
     <header>
-        <h1>Array Multidimencional</h1>
+        <h1 class="mb-3 display-4">Array Multidimencional</h1>
     </header>
 
     <?php
 
-        $lista_coisas = Array();
-        $lista_coisas['frutas'] = ['Banana', 'Maçã', 'Morango', 'Uva'];
-        $lista_coisas['pessoas'] = ['João', 'Maria', 'José'];
+    $lista_coisas = [];
 
-        echo '<pre>';
-        print_r($lista_coisas['frutas']);
-        echo '</pre><hr>';
+    $lista_coisas['frutas'] = [1=>'Banana', 2=>'Maçã', 3=>'Morango', 4=>'Uva'];
+    // $lista_coisas['pessoas'] = [1=>'João', 2=>'José', 3=>'Maria'];
+    $lista_coisas['pessoas'] = [
+        'Pais' => [
+            'Pais-1' => ['Erick', 'Raquézia'],
+            'Pais-2' => ['Zenilson', 'Camila']
+        ],
+        'Filhos' => [
+            'Filhos-1' => ['Gabriel', 'Gabriely'],
+            'Filhos-2' => ['Lucas Gabriel']
+        ]
+    ];
 
-        echo '<pre>';
-        print_r($lista_coisas['pessoas']);
-        echo '</pre><hr>';
+    echo '<pre>';
+    var_dump($lista_coisas['frutas']);
+    echo '</pre>';
+    echo '<hr>';
 
-        echo $lista_coisas['frutas'][1].'<br>';
-        echo $lista_coisas['pessoas'][2];
+    echo '<pre>';
+    print_r($lista_coisas['pessoas']);
+    echo '</pre>';
+    echo '<hr>';
+
+    echo $lista_coisas['frutas'][3];
+    echo '<br>';
+    echo $lista_coisas['pessoas']['Pais']['Pais-1'][0];
 
     ?>
 

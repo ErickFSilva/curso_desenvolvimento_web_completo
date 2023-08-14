@@ -46,67 +46,112 @@
 
         <?php
 
-        // is_array: verifica se o parâmetro é um array
+        // 
+        function imprime_array($array) {
+            echo "<pre>";
+            print_r($array);
+            // var_dump($array);
+            echo "</pre>";
+        }
+
+        // is_array: verifica se o parâmetro é um array, retornando 'true' o 'false';
         echo "<p class='h5'>- Função: is_array()</p>";
 
-        $isArray = 'String';
+        $isArray1 = 'String';
         $isArray2 = [];
-        $retorno = is_array($isArray2);
 
-        echo $retorno ? "<p>Sim, é um array</p>" : "<p>Não, não é um array</p>";
-        echo "<hr>";
+        $retorno_isarray1 = is_array($isArray1);
+        $retorno_isarray2 = is_array($isArray2);
+
+        echo $retorno_isarray1 ? "<p>Sim, é um array</p>" : "<p>Não, não é um array</p>";
+        echo $retorno_isarray2 ? "<p>Sim, é um array</p>" : "<p>Não, não é um array</p>";
+        echo '<hr>';
 
 
-        // array_keys: retorna todas as chaves de um array
+        // array_keys: retorna todas as chaves de um array;
         echo "<p class='h5'>- Função: array_keys()</p>";
 
-        $arrayKeys = [1 => 'a', 7 => 'b', 18 => 'c'];
+        $arrayKeys1 = [1 => 'a', 7 => 'b', 18 => 'c'];
+        $chaves_array = array_keys($arrayKeys1);
 
-        echo '<pre>';
-        print_r($arrayKeys);
-        echo '</pre>';
-
-        $chaves_arrayKeys = array_keys($arrayKeys);
-
-        echo '<pre>';
-        print_r($chaves_arrayKeys);
-        echo '</pre>';
-        echo "<hr>";
+        imprime_array($arrayKeys1);
+        imprime_array($chaves_array);
+        echo '<hr>';
 
 
-        // sort: ordena um array e reajusta seus índices
+        // sort: ordena um array e reajusta seus índices. Ele retorna 'true' ou 'false' para a tentativa de ordenação do mesmo 'array';
         echo "<p class='h5'>- Função: sort()</p>";
 
-        $array_sort = ['teclado', 'mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook'];
+        $array_info1 = ['teclado', 'mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook'];
+        imprime_array($array_info1);
 
-        echo "<pre>";
-        print_r($array_sort);
-        echo "</pre>";
+        sort($array_info1);
+        imprime_array($array_info1);
+        echo '<hr>';
 
-        sort($array_sort); // Retorna 'true' ou 'false' para a tentativa de reordenação de um array
+
+        // asort: é semelhante ao 'sort', mas ordena o array preservando a posição dos índices;
+        echo "<p class='h5'>- Função: asort()</p>";
+
+        $array_info2 = ['teclado', 'mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook'];
+        imprime_array($array_info2);
+
+        asort($array_info2);
+        imprime_array($array_info2);
+        echo '<hr>';
+
+
+        // count: conta a quantidade de elementos existentes dentro de um array;
+        echo "<p class='h5'>- Função: count()</p>";
+
+        $array_info3 = ['teclado', 'mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook'];
+
+        imprime_array($array_info3);
+        echo "<p>".count($array_info3)." ítens no array</p>";
+        echo '<hr>';
+
+
+        // array_merge: funde um ou mais arrays, retornando um novo 'array' através da concatenação dos 'arrays' passados como parâmetros;
+        echo "<p class='h5'>- Função: array_merge()</p>";
+
+        $array_os1 = ['osx', 'windows'];
+        $array_os2 = ['linux'];
+        $array_os3 = ['solaris'];
         
-        echo "<pre>";
-        print_r($array_sort);
-        echo "</pre>";
+        echo "<p># Array 1:<p>";
+        imprime_array($array_os1);
+
+        echo "<p># Array 2:</p>";
+        imprime_array($array_os2);
+
+        echo "<p># Array 3:</p>";
+        imprime_array($array_os3);
+
+        $arrayMerge = array_merge($array_os1, $array_os2, $array_os3);
+        
+        echo "<p># Array Merge:</p>";
+        imprime_array($arrayMerge);
+        echo '<hr>';
 
 
-        // asort: ordena um array preservando os índices
+        // explode: divide uma string baseada em um delimitador;
+        echo "<p class='h5'>- Função: explode()</p>";
+
+        $data = '2018-05-26';
+        $array_explode = explode('-', $data);
+
+        echo "<p>".$data."</p>";
+        imprime_array($array_explode);
+        echo '<hr>';
 
 
+        // implode: junta elementos de um array em uma string;
+        echo "<p class='h5'>- Função: implode()</p>";
 
-        // count: conta a quantidade de elementos de um array
+        imprime_array($array_explode);
 
-
-
-        // array_merge: funde um ou mais arrays
-
-
-
-        // explode: divide uma string baseada em um delimitador
-
-
-
-        // implode: junta elementos de um array em uma string
+        $array_implode = implode('-', $array_explode);
+        echo "<p>".$array_implode." é um ".gettype($array_implode)."</p>";
 
 
         ?>

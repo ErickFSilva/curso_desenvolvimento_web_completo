@@ -26,22 +26,54 @@
 
     <?php
 
-        $num = 0;
+    $num1 = 0;
+    $num2 = 0;
+    $num3 = 0;
+    $num4 = 0;
 
-        echo '-- Início do loop --<br>';
 
-        // operadores de comparação / lógicos
-        while ($num < 10) {
-            $num++;
+    echo "<p>";
+    while($num1 < 10) {
+        echo "$num1 ";
+        $num1++;
+    }
+    echo "</p>";
 
-            if ($num == 5) {
-                continue;
-            }
 
-            echo $num.'<br>';
+    echo "<p>";
+    while($num2 <= 20) {
+        echo "$num2 ";
+        $num2 += 2;
+    }
+    echo "</p>";
+
+
+    echo "<p>";
+    while($num3 <= 100) {
+
+        if ($num3 > 50) {
+            break;
         }
+        
+        echo "$num3 ";
 
-        echo '-- Fim do loop --';
+        $num3 += 2;
+    }
+    echo "</p>";
+
+
+    echo "<p>";
+    while($num4 <= 60) {
+
+        if ($num4 == 50) {
+            continue;
+        }
+        
+        echo "$num4 ";
+
+        $num4 += 2;
+    }
+    echo "</p>";
 
     ?>
 

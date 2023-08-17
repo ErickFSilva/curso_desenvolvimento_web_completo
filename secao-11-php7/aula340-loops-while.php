@@ -66,6 +66,7 @@
     while($num4 <= 60) {
 
         if ($num4 == 50) {
+            $num4 += 2;
             continue;
         }
         

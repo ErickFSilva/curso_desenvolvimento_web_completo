@@ -26,14 +26,16 @@
 
     <?php
 
-        $num = 0;
+    $x = 10;
+
+    do { // "faça"
         
-        do {
+        echo "X = $x <br>";
 
-            echo $num;
-            $num++;
+        $x--;
 
-        } while ($num < 10);
+        echo "X = $x";
+    } while($x < 9); // "enquanto"
 
     ?>
 

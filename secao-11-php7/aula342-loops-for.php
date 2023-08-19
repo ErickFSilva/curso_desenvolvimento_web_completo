@@ -26,14 +26,29 @@
 
     <?php
 
-        for ($x = 1; true; $x++) {
+    for($i = 1; $i <= 10; $i++) {
 
-            if ($x > 20) {
-                break;
-            }
+        echo "$i ";
+    }
 
-            echo $x .'<br>';
+    echo "<hr>";
+
+    for($i; true; $i++) {
+
+        echo "$i ";
+
+        if($i == 20) {
+
+            break;
         }
+    }
+
+    echo "<hr>";
+
+    for($i; $i > 0; $i -= 2) {
+
+        echo "$i ";
+    }
 
     ?>
 

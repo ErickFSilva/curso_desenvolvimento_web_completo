@@ -18,14 +18,13 @@
     <div class="container">
         <div class="row">
 
-            <h1 class="display-1 mb-5">- Cabeçalhos:</h1>
+            <h1 class="display-6 mb-5">- Parágrafos:</h1>
 
-            <h1>Cabeçalho 1</h1>
-            <h2>Cabeçalho 2</h2>
-            <h3>Cabeçalho 3</h3>
-            <h4>Cabeçalho 4</h4>
-            <h5>Cabeçalho 5</h5>
-            <h6>Cabeçalho 6</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea saepe iste eos repudiandae eveniet, impedit aperiam esse vitae id quod molestias aliquam! Laborum aut deserunt odio eos quo omnis necessitatibus.</p>
+            
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, iure eius hic ratione minima rem aliquid dignissimos perspiciatis.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum eos dolorem nisi cumque consectetur numquam dolore error quaerat, quae velit vero amet impedit. Perspiciatis quo, fugiat laudantium laborum assumenda quisquam.</p>
 
         </div>
     </div>

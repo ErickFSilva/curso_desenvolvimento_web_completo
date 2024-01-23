@@ -18,14 +18,17 @@
     <div class="container">
         <div class="row">
 
-            <h1 class="display-1 mb-5">- Cabeçalhos:</h1>
+            <h1 class="display-6 mb-5">- Formatações de textos:</h1>
 
-            <h1>Cabeçalho 1</h1>
-            <h2>Cabeçalho 2</h2>
-            <h3>Cabeçalho 3</h3>
-            <h4>Cabeçalho 4</h4>
-            <h5>Cabeçalho 5</h5>
-            <h6>Cabeçalho 6</h6>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <p><strong>Lorem ipsum dolor sit</strong> amet consectetur adipisicing elit.</p>
+
+            <p><em>Lorem ipsum dolor sit</em>, amet consectetur adipisicing elit.</p>
+
+            <p><u>Lorem ipsum, dolor sit</u> amet consectetur adipisicing elit.</p>
+
+            <p><strike>Lorem ipsum dolor sit</strike> amet consectetur adipisicing elit.</p>
 
         </div>
     </div>

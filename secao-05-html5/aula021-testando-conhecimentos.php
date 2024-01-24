@@ -24,9 +24,10 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iusto neque eum corporis quidem dolorum impedit perferendis beatae! Debitis possimus sed voluptatum tempore veniam totam at enim recusandae, ut ducimus!
                 </p>
-                <hr>
 
             </div>
+            
+            <hr>
 
             <div class="col-12 col-md-8 my-3">
 
@@ -36,9 +37,10 @@
                     <li>Preços especiais</li>
                     <li>Muitas cidades</li>
                 </ol>
-                <hr>
 
             </div>
+            
+            <hr>
 
             <div class="col-12 col-md-8 my-3">
 
@@ -47,9 +49,10 @@
                     <em>"Gostei demais do atendimento, foi muito rápido e com certeza irei voltar!"</em>
                     <br><strong>Maria Almeida</strong>
                 </p>
-                <hr>
 
             </div>
+            
+            <hr>
 
             <div class="col-12 col-md-8 my-3">
 
@@ -59,9 +62,10 @@
                     <li>Quem somos</li>
                     <li>Contato</li>
                 </ul>
-                <hr>
 
             </div>
+            
+            <hr>
 
         </div>
     </div>

@@ -18,8 +18,12 @@
     <div class="container">
         <div class="row justify-content-center">
 
-            <div class="col-12 col-md-8 my-3">
-                <!--  -->
+            <div class="caixa col-12 col-md-8 my-3">
+            
+                <h1 class="display-6 mb-4 pb-4 border-bottom">- Imagens:</h1>
+
+                <img src="../imagens/pagina-construcao.jpg" class="img-fluid rounded" alt="vaga-dev-blog">
+
             </div>
 
         </div>

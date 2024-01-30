@@ -12,23 +12,15 @@
 
     <!-- CSS -->
     <style type="text/css">
-        
+        body {
+            background-color: #efefef;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-                
-            </div>
-
-        </div>
-
-    </div>
-    </div>
+    <!-- CSS Inline -->
 
 </body>
 

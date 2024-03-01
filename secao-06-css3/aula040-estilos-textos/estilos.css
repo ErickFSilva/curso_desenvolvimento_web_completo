@@ -6,3 +6,18 @@ body {
     font-size: 16px;
 }
 
+.txt-normal {
+    font-weight: normal;
+}
+
+.txt-negrito {
+    font-weight: bold;
+}
+
+.txt-italic {
+    font-style: italic;
+}
+
+.txt-decoration {
+    text-decoration: line-through;
+}

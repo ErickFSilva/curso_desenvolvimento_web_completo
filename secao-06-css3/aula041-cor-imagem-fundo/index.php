@@ -14,13 +14,9 @@
 
     <div class="caixa">
 
-        <p class="txt-normal">Texto normal</p>
+        <h1 class="fundo-topo">Cor e imagem de fundo</h1>
 
-        <p class="txt-negrito">Texto negrito</p>
-
-        <p class="txt-italic">Texto itálico</p>
-
-        <p class="txt-decoration">Texto com decoração</p>
+        <div class="img-fundo"></div>
 
     </div>
 

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #839469;
+}
+
+.caixa {
+    width: 600px;
+    padding-bottom: 100px;
+    font-size: 16px;
+}
+
+.fundo-topo {
+    padding: 10px;
+    border-radius: 5px;
+    color: #1d2742;
+    background-color: #f5f5dc;
+}
+
+.img-fundo {
+    width: 100%;
+    height: 1212px;
+    border: 4px solid #f5f5dc;
+    /* background-image: url(../../imagens/yoshi.png);
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-position: center top; */
+    background: url(../../imagens/yoshi.png) repeat-y scroll center top;
+}

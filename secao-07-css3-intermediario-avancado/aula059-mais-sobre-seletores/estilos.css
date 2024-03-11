@@ -1,0 +1,29 @@
+/* ****** SELETORES ****** */
+
+/* Seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+
+/* Seletor de texto */
+h1 {
+    font: 2.8em 'Segoe UI';
+}
+
+
+/* Seletor de ID */
+#container {
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+/* Seletor de classe */
+.subtitulo {
+    font: 1.2em system-ui;
+}

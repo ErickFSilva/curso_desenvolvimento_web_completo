@@ -1,0 +1,184 @@
+/* ****** LIMPANDO FORMATAÇÃO ****** */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color: #fcfcfc; */
+    background-color: #f7f4ed;
+}
+
+a {
+    text-decoration: none;
+    color: #ad8d36;
+}
+
+
+/* ****** LAYOUT ****** */
+/* Área cabeçalho */
+#area-cabecalho {
+    padding: 15px;
+    width: 100%;
+    /* text-align: center; */
+    background: #f7b600;
+}
+
+
+/* Área logo e Área menu */
+#area-logo, #area-menu {
+    margin: 0 auto;
+    padding: 10px;
+    width: 920px;
+    /* border: 1px solid #fafafa; */
+    text-align: center;
+}
+
+
+/* Área menu */
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    padding: 8px 12px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+#area-cabecalho a:hover, #area-cabecalho a:active {
+    color: #f7b600;
+    background-color: #fafafa;
+}
+
+
+/* Área principal */
+#area-principal {
+    margin: 20px auto 0;
+    width: 920px;
+    /* background-color: #fafafa; */
+}
+
+
+/* Área postagens e Área lateral */
+#area-postagens, #area-lateral {
+    float: left;
+    /* border: 1px dashed #f7b600; */
+}
+
+
+/* Área postagens */
+#area-postagens {
+    width: 660px;
+}
+
+.postagem {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-right: 1px solid #e0d7bf;
+    border-bottom: 1px solid #e0d7bf;
+    box-shadow: 0px 0px 1px #e0d7bf;
+    background-color: #fafafa;
+}
+
+.post-titulo {
+    font-size: 1.2em;
+    /* color: #f7b600; */
+    color: #ad8d36;
+}
+
+.post-subtitulo {
+    margin-bottom: 10px;
+    font-size: 0.7em;
+    color: #b6ae97;
+}
+
+.postagem img { 
+    width: 100%;
+    display: block;
+}
+
+.postagem p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.postagem p a:link {
+    font-size: 0.9em;
+}
+
+.postagem p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Área lateral */
+#area-lateral {
+    width: 240px;
+    /* border: 1px dashed #f7b600; */
+}
+
+/* Postagens e Categorias */
+
+#postagens-recentes, #categorias {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-right: 1px solid #e0d7bf;
+    border-bottom: 1px solid #e0d7bf;
+    box-shadow: 0px 0px 1px #e0d7bf;
+    background-color: #fafafa;
+}
+
+#postagens-recentes .linha {
+    margin: 15px 0 10px;
+    border-top: 1px solid #e0d7bf;
+}
+
+#postagens-recentes h3, #categorias h3 {
+    padding: 4px 10px;
+    color: #4e4e4e;
+    background-color: #f7b600;
+}
+
+#postagens-recentes .postagem-lateral p {
+    margin-top: 10px;
+}
+
+#postagens-recentes .postagem-lateral a:link {
+    font-size: 0.9em;
+}
+
+#postagens-recentes .postagem-lateral a:hover {
+    text-decoration: underline;
+}
+
+#categorias ul {
+    margin-top: 10px;
+}
+
+#categorias ul li {
+    padding-bottom: 5px;
+}
+
+
+/* Área rodapé */
+#area-rodape {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: #ad8d36;
+    /* background-color: #f7b600; */
+}
+
+
+/* ****** FORMATAÇÕES GERAIS ****** */
+h1 {
+    font-size: 2.5em;
+    color: #4e4e4e;
+}
+
+.branco { color: #fafafa; }
+.margin-left-20 { margin-left: 20px; }
+.clear { clear: both; }

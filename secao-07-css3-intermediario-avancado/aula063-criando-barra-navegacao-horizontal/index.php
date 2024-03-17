@@ -14,7 +14,7 @@
 
         <h1>Home</h1>
 
-        <ul id="nav-princ">
+        <!-- <ul id="nav-princ">
             <li class="home primeiro">
                 <a href="index.php">Home</a>
             </li>
@@ -30,7 +30,9 @@
             <li class="contato">
                 <a href="contato.php">Contato</a>
             </li>
-        </ul>
+        </ul> -->
+
+        <?php include "barra-navegacao.php" ?>
 
     </div>
 

@@ -1,0 +1,78 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+/* CONTAINER */
+#container {
+    margin: 0 auto;
+    padding: 0;
+    width: 720px;
+    background-color: #fff;
+}
+
+
+/* MARCA */
+#marca {
+    line-height: 100px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #4d0d81;
+}
+
+
+/* CONTEÚDO */
+#conteudo {
+    float: right;
+    width: 520px;
+}
+
+#cont-princ {
+    float: left;
+    padding: 0 10px;
+    width: 320px;
+}
+
+#cont-secun {
+    float: right;
+    padding: 0 10px;
+    width: 180px;
+    background-color: #f7ead4;
+}
+
+
+/* NAVEGAÇÃO */
+#navegacao {
+    float: left;
+    padding: 20px 20px;
+    width: 180px;
+    background-color: #a2dceb;
+}
+
+#navegacao ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+
+/* RODAPE */
+#rodape {
+    color: #fafafa;
+    background-color: #4538bd;
+}
+
+
+/* UTILITÁRIOS */
+.clear { clear: both; }

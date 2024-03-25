@@ -1,0 +1,116 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+/* CONTAINER */
+#container {
+    margin: 0 auto;
+    padding: 0;
+    width: 85%; /* 720px */
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        background-color: lightsalmon;
+    }
+
+    #container {
+        width: 75%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    body {
+        background-color: lightslategray;
+    }
+
+    #container {
+        width: 1050px;
+    }
+
+}
+
+
+/* MARCA */
+#marca {
+    line-height: 100px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #4d0d81;
+}
+
+
+/* CONTEÚDO */
+#conteudo {
+    float: right;
+    width: 74.28% /* 520px */;
+    border: 1px dotted orangered;
+}
+
+#cont-princ {
+    float: left;
+    padding: 0 10px;
+    width: 64% /* 320px */;
+}
+
+#cont-secun {
+    float: right;
+    padding: 0 10px;
+    width: 36% /*180px */;
+    background-color: #f7ead4;
+}
+
+
+/* NAVEGAÇÃO */
+#navegacao {
+    float: left;
+    padding: 20px 20px;
+    width: 25.71% /* 180px */;
+    border: 1px dotted orangered;
+    background-color: #a2dceb;
+}
+
+#navegacao ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+
+/* RODAPE */
+#rodape {
+    color: #fafafa;
+    background-color: #4538bd;
+}
+
+
+/* UTILITÁRIOS */
+.clear { clear: both; }

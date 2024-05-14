@@ -15,7 +15,7 @@
     <div id="container">
 
         <!-- Abre marca -->
-        <div id="marca">Marca</div>
+        <div id="marca"></div>
         <!-- Fecha marca -->
 
         <!-- Abre conteúdo -->
@@ -24,11 +24,13 @@
             <!-- Conteúdo principal -->
             <div id="cont-princ">
                 <h2>Conteúdo principal 1</h2>
+                <img src="../../imagens/natureza.jpg" alt="natureza">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam ad, enim dolore vel accusamus recusandae quisquam tenetur fuga ab nobis voluptate facere pariatur dolorem dolores. Debitis maxime sint voluptas.
                 </p>
 
                 <h2>Conteúdo principal 2</h2>
+                <img src="../../imagens/codigo-web.jpg" alt="">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam ad, enim dolore vel accusamus recusandae quisquam tenetur fuga ab nobis voluptate facere pariatur dolorem dolores. Debitis maxime sint voluptas.
                 </p>

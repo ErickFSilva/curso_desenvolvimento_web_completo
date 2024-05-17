@@ -10,15 +10,18 @@
 
 <body>
 
-    <main>
+    <a href="http://localhost/_projetos-php/curso_desenvolvimento_web_completo" class="link-voltar">Localhost</a>
 
-        
+    <div class="caixa">
+        <h1>Cabeçalho</h1>
 
-        <div class="link-voltar">
-            <a href="http://localhost/_projetos-php/curso_desenvolvimento_web_completo">Localhost</a>
-        </div>
-
-    </main>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, laudantium ducimus? Fugit officiis incidunt vero officia mollitia voluptatibus dignissimos in, repellendus eum veniam veritatis molestiae facere doloremque, repudiandae sit accusantium.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro accusamus fugit maiores illo cum, repudiandae delectus distinctio dignissimos veniam debitis? Recusandae labore earum fugiat non reprehenderit necessitatibus facilis expedita asperiores.
+        </p>
+    </div>
 
 </body>
 

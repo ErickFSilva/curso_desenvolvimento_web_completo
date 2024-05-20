@@ -6,7 +6,7 @@
     <title>Notícias Cidade</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body id="home">
+<body id="ciencia">
 
     <!-- Abre container -->
     <div id="container">

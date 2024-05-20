@@ -1,12 +1,18 @@
-/*  */
+/* GERAL */
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+a {
+    text-decoration: none;
+    color: #bdbdbd;
 }
 
 
@@ -22,7 +28,7 @@ body {
 #topo {
     padding-top: 25px;
     height: 150px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     background: url(imagens/detalhe-topo.png) no-repeat right top;
 }
 
@@ -31,4 +37,52 @@ body {
     height: 66px;
     font-size: 0;
     background: url(imagens/logo.png) no-repeat center;
+}
+
+
+/* BARRA DE NAVEGAÇÃO */
+#topo ul {
+    float: left;
+    margin-top: 30px;
+    background-color: #b10333;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    padding: 0.5em 1.5em;
+    display: block;
+    line-height: 2.1em;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #fafafa;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul a.primeiro {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body#home #navagacao a.home,
+body#brasil #navagacao a.brasil,
+body#internacional #navagacao a.internacional,
+body#economia #navagacao a.economia,
+body#saude #navagacao a.saude,
+body#ciencia #navagacao a.ciencia,
+body#fotos #navagacao a.fotos {
+    cursor: text;
+    color: #fafafa;
+    background-color: #de003e;
+}
+
+
+/* ESPECÍFICOS */
+.clear-both {
+    clear: both;
 }

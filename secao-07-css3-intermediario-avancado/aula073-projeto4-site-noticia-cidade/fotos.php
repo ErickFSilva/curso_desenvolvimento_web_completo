@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="fotos">
+
+<body id="uma-colunas" class="fotos">
 
     <!-- Abre container -->
     <div id="container">
 
         <!-- Abre topo -->
         <div id="topo">
-            
+
             <!-- Abre logo -->
             <h1 class="logo">Notícias cidade</h1>
 
@@ -33,8 +35,40 @@
         </div>
         <!-- Fecha topo -->
 
+        <!-- Abre conteúdo -->
+        <div id="conteudo">
+
+            <!-- Abre principal -->
+            <div id="principal" class="float-right">
+
+                <!-- Abre conteúdo primario -->
+                <div id="primario" class="float-left">primario</div>
+                <!-- Fecha conteúdo primário -->
+
+            </div>
+            <!-- Fecha principal -->
+
+            <!-- Limpa efeitos do float -->
+            <div class="clear-both"></div>
+
+        </div>
+        <!-- Fecha conteúdo -->
+
     </div>
     <!-- Fecha container -->
-    
+
+    <!-- Abre container rodapé -->
+    <div id="container-rodape">
+
+        <!-- Abre rodapé -->
+        <div id="rodape">
+            &copy; Copyright 2000-2018 Notícias cidade
+        </div>
+        <!-- Abre rodapé -->
+
+    </div>
+    <!-- Fecha container rodapé -->
+
 </body>
+
 </html>

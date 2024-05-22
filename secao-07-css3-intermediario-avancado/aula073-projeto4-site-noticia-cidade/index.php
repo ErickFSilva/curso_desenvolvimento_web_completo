@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body id="home">
+<body id="tres-colunas" class="home">
 
     <!-- Abre container -->
     <div id="container">
@@ -42,21 +42,60 @@
             <div id="principal" class="float-right">
 
                 <!-- Abre conteúdo primario -->
-                <div id="primario" class="float-left">primario</div>
+                <div id="primario" class="float-left">
+
+                    <div class="caixa">
+                        <h2>Última entrevista</h2>
+
+                        <div class="caixa-conteudo">
+                            <p>Conteúdo</p>
+                            <p>Conteúdo</p>
+                            <p>Conteúdo</p>
+                            <p>Conteúdo</p>
+                        </div>
+                    </div>
+
+                </div>
                 <!-- Fecha conteúdo primário -->
 
                 <!-- Abre conteúdo secundário -->
-                <div id="secundario" class="float-left">secundario</div>
+                <div id="secundario" class="float-left">
+
+                    <div class="caixa">
+                        <h2>Destaque</h2>
+
+                        <div class="caixa-conteudo">
+                            <p>Conteúdo</p>
+                            <p>Conteúdo</p>
+                            <p>Conteúdo</p>
+                            <p>Conteúdo</p>
+                        </div>
+                    </div>
+
+                </div>
                 <!-- Fecha conteúdo secundário -->
 
             </div>
             <!-- Fecha principal -->
 
             <!-- Abre conteúdo lateral -->
-            <div id="lateral" class="float-left">lateral</div>
+            <div id="lateral" class="float-left">
+
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+
+                    <div class="caixa-conteudo">
+                        <p>Conteúdo</p>
+                        <p>Conteúdo</p>
+                        <p>Conteúdo</p>
+                        <p>Conteúdo</p>
+                    </div>
+                </div>
+
+            </div>
             <!-- Fecha conteúdo lateral -->
 
-            <!-- Limpa efeitos do float -->
+            <!-- Limpa efeitos do float em conteúdo -->
             <div class="clear-both"></div>
 
         </div>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="saude">
+<body id="tres-colunas" class="saude">
 
     <!-- Abre container -->
     <div id="container">

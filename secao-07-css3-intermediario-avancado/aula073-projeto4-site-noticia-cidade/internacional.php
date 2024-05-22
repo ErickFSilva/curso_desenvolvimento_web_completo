@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="internacional">
+<body id="tres-colunas" class="internacional">
 
     <!-- Abre container -->
     <div id="container">

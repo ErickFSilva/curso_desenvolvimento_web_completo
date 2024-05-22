@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="economia">
+<body id="tres-colunas" class="economia">
 
     <!-- Abre container -->
     <div id="container">

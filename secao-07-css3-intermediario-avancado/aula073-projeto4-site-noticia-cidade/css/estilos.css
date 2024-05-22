@@ -70,38 +70,75 @@ a {
     color: #69001d;
 }
 
-body#home #navagacao a.home,
-body#brasil #navagacao a.brasil,
-body#internacional #navagacao a.internacional,
-body#economia #navagacao a.economia,
-body#saude #navagacao a.saude,
-body#ciencia #navagacao a.ciencia,
-body#fotos #navagacao a.fotos {
+body.home #navagacao a.home,
+body.brasil #navagacao a.brasil,
+body.internacional #navagacao a.internacional,
+body.economia #navagacao a.economia,
+body.saude #navagacao a.saude,
+body.ciencia #navagacao a.ciencia,
+body.fotos #navagacao a.fotos {
     cursor: text;
     color: #fafafa;
     background-color: var(--terceiro-vermelho);
 }
 
 
-/* CONTEÚDO - LAYOUT DE TRÊS COLUNAS */
+/* CONTEÚDO - LAYOUTS */
 #conteudo {
-    margin-top: 60px;
+    margin: 70px 0 10px;
     /* border: 1px solid tomato; */
     /* background-color: rgb(255, 207, 140); */
 }
 
-#primario, #secundario {
-    width: 270px;
-    background-color: rgb(169, 197, 199);
-}
-
-#primario {
-    margin-right: 15px;
-}
-
+/* LATERAL */
 #lateral {
     width: 180px;
-    background-color: rgb(214, 214, 214);
+    /* background-color: var(--primeiro-cinza); */
+}
+
+/* CAIXA */
+.caixa {
+    /* margin: 10px 0; */
+    padding: 5px;
+    background: var(--segundo-cinza) url(../imagens/fundo-caixa.png);
+}
+
+.caixa h2 {
+    padding: 5px;
+    font-size: 1.1em;
+    color: var(--branco);
+    background-color: var(--primeiro-azul);
+}
+
+.caixa .caixa-conteudo {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: var(--branco);
+}
+
+/* COLUNAS */
+#tres-colunas #primario {
+    margin-right: 15px;
+    width: 270px;
+    /* border: 1px solid tomato; */
+    /* background-color: var(--segundo-azul); */
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    /* border: 1px solid tomato; */
+    /* background-color: var(--segundo-azul); */
+}
+
+#uma-colunas #primario {
+    width: 750px;
+    /* border: 1px solid tomato; */
+    /* background-color: var(--segundo-azul); */
+}
+
+#secundario {
+    width: 270px;
+    background-color: var(--segundo-azul);
 }
 
 

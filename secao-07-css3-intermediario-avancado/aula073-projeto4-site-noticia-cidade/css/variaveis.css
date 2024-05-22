@@ -1,7 +1,15 @@
 /* VARIÁVEIS GLOBAIS */
 :root {
+    /* Branco */
+    --branco: #fff;
+    /* Azuis */
     --primeiro-azul: #294c71;
+    --segundo-azul: #a9c5c7;
+    /* Vermelhos */
     --primeiro-vermelho: #b10333;
     --segundo-vermelho: #69001d;
     --terceiro-vermelho: #69001d;
+    /* Cinzas */
+    --primeiro-cinza: #d6d6d6;
+    --segundo-cinza: #f3f3f3;
 }

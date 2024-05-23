@@ -21,7 +21,6 @@ a {
 #container {
     margin: 0 auto;
     width: 750px;
-    /* border: 1px solid tomato; */
 }
 
 
@@ -29,7 +28,6 @@ a {
 #topo {
     padding-top: 25px;
     height: 175px;
-    /* border: 1px solid tomato; */
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
 }
 
@@ -83,22 +81,21 @@ body.fotos #navagacao a.fotos {
 }
 
 
-/* CONTEÚDO - LAYOUTS */
+/* CONTEÚDO - LAYOUT */
 #conteudo {
-    margin: 70px 0 10px;
-    /* border: 1px solid tomato; */
-    /* background-color: rgb(255, 207, 140); */
+    margin: 70px 0 0;
 }
+
 
 /* LATERAL */
 #lateral {
     width: 180px;
-    /* background-color: var(--primeiro-cinza); */
 }
+
 
 /* CAIXA */
 .caixa {
-    /* margin: 10px 0; */
+    margin-bottom: 10px;
     padding: 5px;
     background: var(--segundo-cinza) url(../imagens/fundo-caixa.png);
 }
@@ -116,36 +113,78 @@ body.fotos #navagacao a.fotos {
     background-color: var(--branco);
 }
 
-/* COLUNAS */
+
+/* MENUS LATERAIS */
+#lateral ul a {
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid var(--segundo-cinza);
+    color: var(--preto);
+}
+
+#lateral ul a:hover {
+    padding-left: 20px;
+    color: var(--terceiro-cinza);
+    background: var(--quarto-cinza) url(../imagens/marcador.png) no-repeat left center;
+}
+
+#lateral label {
+    display: block;
+    cursor: pointer;
+}
+
+#lateral input[type="email"] {
+    margin: 5px 0;
+    padding: 3px;
+    width: 100%;
+    border: 1px solid var(--primeiro-cinza);
+    color: var(--quinto-cinza);
+    font-size: 0.9em;
+    background-color: var(--branco);
+}
+
+#lateral input[type="submit"] {
+    padding: 3px;
+    width: 100%;
+    border: 2px solid var(--quarto-vermelho);
+    color: var(--branco);
+    font-weight: bold;
+    background-color: var(--primeiro-vermelho);
+}
+
+
+/* LAYOUT TRÊS COLUNAS - PRIMÁRIO */
 #tres-colunas #primario {
     margin-right: 15px;
     width: 270px;
-    /* border: 1px solid tomato; */
-    /* background-color: var(--segundo-azul); */
 }
 
+#tres-colunas #primario .caixa img {
+    width: 100%;
+    border: 3px solid var(--sexto-cinza);
+}
+
+/* LAYOUT DUAS COLUNAS - PRIMÁRIO */
 #duas-colunas #primario {
     width: 555px;
-    /* border: 1px solid tomato; */
-    /* background-color: var(--segundo-azul); */
 }
 
+/* LAYOUT UMA COLUNA - PRIMÁRIO */
 #uma-colunas #primario {
     width: 750px;
-    /* border: 1px solid tomato; */
-    /* background-color: var(--segundo-azul); */
 }
 
+
+/* COLUNA SECUNDÁRIA */
 #secundario {
     width: 270px;
-    background-color: var(--segundo-azul);
 }
 
 
 /* RODAPÉ */
 #container-rodape {
     padding: 20px 0;
-    /* border: 1px solid tomato; */
     background-color: var(--primeiro-azul);
 }
 
@@ -153,7 +192,6 @@ body.fotos #navagacao a.fotos {
     margin: 0 auto;
     padding: 0 20px;
     width: 750px;
-    /* border: 1px solid tomato; */
     text-align: center;
     color: #fff;
 }

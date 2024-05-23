@@ -1,15 +1,27 @@
 /* VARIÁVEIS GLOBAIS */
 :root {
+    /* - CORES */
     /* Branco */
     --branco: #fff;
+    
+    /* Preto */
+    --preto: #000;
+    
     /* Azuis */
     --primeiro-azul: #294c71;
     --segundo-azul: #a9c5c7;
+    
     /* Vermelhos */
     --primeiro-vermelho: #b10333;
     --segundo-vermelho: #69001d;
     --terceiro-vermelho: #69001d;
+    --quarto-vermelho: #870529;
+    
     /* Cinzas */
     --primeiro-cinza: #d6d6d6;
     --segundo-cinza: #f3f3f3;
+    --terceiro-cinza: #a1a1a1;
+    --quarto-cinza: #f9f9f9;
+    --quinto-cinza: #747474;
+    --sexto-cinza: #dfdfdf;
 }

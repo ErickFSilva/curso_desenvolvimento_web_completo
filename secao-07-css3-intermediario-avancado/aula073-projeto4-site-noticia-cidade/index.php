@@ -45,13 +45,15 @@
                 <div id="primario" class="float-left">
 
                     <div class="caixa">
-                        <h2>Última entrevista</h2>
+                        <h2>Destaque</h2>
 
                         <div class="caixa-conteudo">
-                            <p>Conteúdo</p>
-                            <p>Conteúdo</p>
-                            <p>Conteúdo</p>
-                            <p>Conteúdo</p>
+                            <h3>Nova legislação</h3>
+                            <img src="imagens/taxi.jpg" alt="taxi">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi ipsa culpa...
+                            </p>
+                            <a href="">Leia mais!</a>
                         </div>
                     </div>
 
@@ -62,7 +64,7 @@
                 <div id="secundario" class="float-left">
 
                     <div class="caixa">
-                        <h2>Destaque</h2>
+                        <h2>Secundário</h2>
 
                         <div class="caixa-conteudo">
                             <p>Conteúdo</p>
@@ -85,10 +87,33 @@
                     <h2>Entrevistas</h2>
 
                     <div class="caixa-conteudo">
-                        <p>Conteúdo</p>
-                        <p>Conteúdo</p>
-                        <p>Conteúdo</p>
-                        <p>Conteúdo</p>
+                        <ul>
+                            <li><a href="entrevista.php">José Almeida</a></li>
+                            <li><a href="entrevista.php">Felipe Silva</a></li>
+                            <li><a href="entrevista.php">Renato Rodrigues</a></li>
+                            <li><a href="entrevista.php">Abelardo Silveira</a></li>
+                            <li><a href="entrevista.php">André Carlos</a></li>
+                            <li><a href="entrevista.php">Márcio Mello</a></li>
+                            <li><a href="entrevista.php">João Pedro</a></li>
+                            <li><a href="entrevista.php">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="E-mail">
+                            </div>
+
+                            <div>
+                                <input type="submit" value="Cadastrar">
+                            </div>
+                        </form>
                     </div>
                 </div>
 

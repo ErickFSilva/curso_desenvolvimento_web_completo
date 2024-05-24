@@ -113,6 +113,27 @@ body.fotos #navagacao a.fotos {
     background-color: var(--branco);
 }
 
+.caixa .caixa-conteudo h3:first-child {
+    padding: 3px;
+    display: inline;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 0.8em;
+    background-color: var(--primeiro-vermelho);
+}
+
+.caixa .caixa-conteudo h3.entrevista {
+    color: var(--preto);
+    background-color: var(--quinto-vermelho);
+}
+
+.caixa .caixa-conteudo img {
+    margin: 6px 0;
+    width: 100%;
+    display: block;
+    border: 3px solid var(--sexto-cinza);
+}
+
 
 /* MENUS LATERAIS */
 #lateral ul a {
@@ -155,14 +176,9 @@ body.fotos #navagacao a.fotos {
 
 
 /* LAYOUT TRÊS COLUNAS - PRIMÁRIO */
-#tres-colunas #primario {
+#primario {
     margin-right: 15px;
     width: 270px;
-}
-
-#tres-colunas #primario .caixa img {
-    width: 100%;
-    border: 3px solid var(--sexto-cinza);
 }
 
 /* LAYOUT DUAS COLUNAS - PRIMÁRIO */

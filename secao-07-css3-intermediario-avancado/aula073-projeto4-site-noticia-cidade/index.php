@@ -44,6 +44,7 @@
                 <!-- Abre conteúdo primario -->
                 <div id="primario" class="float-left">
 
+                    <!-- Abre caixa destaque - Primário -->
                     <div class="caixa">
                         <h2>Destaque</h2>
 
@@ -56,6 +57,57 @@
                             <a href="">Leia mais!</a>
                         </div>
                     </div>
+                    <!-- Fecha caixa destaque - Primário -->
+
+                    <!-- Abre caixa mundo - Primário -->
+                    <div class="caixa">
+                        <h2>Mundo</h2>
+
+                        <div class="caixa-conteudo">
+                        
+                            <!-- Abre lista-noticias -->
+                            <ul id="lista-noticias">
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p class="clear-both"></p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p class="clear-both"></p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p class="clear-both"></p>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        <p class="clear-both"></p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Fecha  lista-noticias -->
+
+                        </div>
+                    </div>
+                    <!-- Fecha caixa mundo - Primário -->
 
                 </div>
                 <!-- Fecha conteúdo primário -->
@@ -63,6 +115,7 @@
                 <!-- Abre conteúdo secundário -->
                 <div id="secundario" class="float-left">
 
+                    <!-- Abre caixa entrevista - Secundário -->
                     <div class="caixa">
                         <h2>Última entrevista</h2>
 
@@ -75,6 +128,7 @@
                             <a href="">Leia mais!</a>
                         </div>
                     </div>
+                    <!-- Fecha caixa entrevista - Secundário -->
 
                 </div>
                 <!-- Fecha conteúdo secundário -->
@@ -85,6 +139,7 @@
             <!-- Abre conteúdo lateral -->
             <div id="lateral" class="float-left">
 
+                <!-- Abre caixa entrevista - Lateral -->
                 <div class="caixa">
                     <h2>Entrevistas</h2>
 
@@ -101,7 +156,9 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Fecha caixa entrevista - Lateral -->
 
+                <!-- Abre caixa news - Lateral -->
                 <div class="caixa">
                     <h2>News</h2>
 
@@ -118,6 +175,7 @@
                         </form>
                     </div>
                 </div>
+                <!-- Fecha caixa news - Lateral -->
 
             </div>
             <!-- Fecha conteúdo lateral -->

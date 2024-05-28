@@ -42,7 +42,7 @@
             <div id="principal" class="float-right">
 
                 <!-- Abre conteúdo primario -->
-                <div id="primario" class="float-left">
+                <div id="primario" class="float-left margin-right-15">
 
                     <!-- Abre caixa destaque - Primário -->
                     <div class="caixa">
@@ -54,7 +54,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi ipsa culpa...
                             </p>
-                            <a href="">Leia mais!</a>
+                            <a href="nova-legislacao.php">Leia mais!</a>
                         </div>
                     </div>
                     <!-- Fecha caixa destaque - Primário -->
@@ -64,7 +64,7 @@
                         <h2>Mundo</h2>
 
                         <div class="caixa-conteudo">
-                        
+
                             <!-- Abre lista-noticias -->
                             <ul id="lista-noticias">
                                 <li>
@@ -72,8 +72,8 @@
                                         <img src="imagens/tecnologia.jpg" alt="tecnologia">
                                         <h3>Novas tecnologias</h3>
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                                        <p class="clear-both"></p>
                                     </a>
+                                    <div class="clear-both"></div>
                                 </li>
 
                                 <li>
@@ -81,8 +81,8 @@
                                         <img src="imagens/tecnologia.jpg" alt="tecnologia">
                                         <h3>Novas tecnologias</h3>
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                                        <p class="clear-both"></p>
                                     </a>
+                                    <div class="clear-both"></div>
                                 </li>
 
                                 <li>
@@ -90,8 +90,8 @@
                                         <img src="imagens/tecnologia.jpg" alt="tecnologia">
                                         <h3>Novas tecnologias</h3>
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                                        <p class="clear-both"></p>
                                     </a>
+                                    <div class="clear-both"></div>
                                 </li>
 
                                 <li>
@@ -99,8 +99,8 @@
                                         <img src="imagens/tecnologia.jpg" alt="tecnologia">
                                         <h3>Novas tecnologias</h3>
                                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                                        <p class="clear-both"></p>
                                     </a>
+                                    <div class="clear-both"></div>
                                 </li>
                             </ul>
                             <!-- Fecha  lista-noticias -->
@@ -129,6 +129,56 @@
                         </div>
                     </div>
                     <!-- Fecha caixa entrevista - Secundário -->
+
+                    <!-- Abre caixa Notícias recentes - Secundário -->
+                    <div class="caixa">
+                        <h2>Notícias recentes</h2>
+
+                        <div class="caixa-conteudo">
+
+                            <!-- Abre lista-noticias -->
+                            <ul id="lista-noticias">
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/cidade.jpg" alt="cidade">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/taxi.jpg" alt="taxi">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/doutor.jpg" alt="doutor">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+                            </ul>
+                            <!-- Fecha  lista-noticias -->
+
+                        </div>
+                    </div>
+                    <!-- Fecha caixa Notícias recentes - Secundário -->
 
                 </div>
                 <!-- Fecha conteúdo secundário -->

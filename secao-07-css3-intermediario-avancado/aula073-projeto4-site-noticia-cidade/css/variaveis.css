@@ -10,6 +10,7 @@
     /* Azuis */
     --primeiro-azul: #294c71;
     --segundo-azul: #a9c5c7;
+    --terceiro-azul: #3e7ab9;
     
     /* Vermelhos */
     --primeiro-vermelho: #b10333;
@@ -26,4 +27,5 @@
     --quinto-cinza: #747474;
     --sexto-cinza: #dfdfdf;
     --setimo-cinza: #ccc;
+    --oitavo-cinza: #eee;
 }

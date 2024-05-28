@@ -39,10 +39,77 @@
         <div id="conteudo">
 
             <!-- Abre principal -->
-            <div id="principal" class="float-right">
+            <div id="principal">
 
                 <!-- Abre conteúdo primario -->
-                <div id="primario" class="float-left">primario</div>
+                <div id="primario" class="float-left">
+
+                    <!-- Abre caixa destaque - Primário -->
+                    <div class="caixa">
+                        <h2>Destaque</h2>
+
+                        <div class="caixa-conteudo">
+                            <h3>Nova legislação</h3>
+                            <img src="imagens/taxi.jpg" alt="taxi">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi ipsa culpa...
+                            </p>
+                            <a href="">Leia mais!</a>
+                        </div>
+                    </div>
+                    <!-- Fecha caixa destaque - Primário -->
+
+                    <!-- Abre caixa mundo - Primário -->
+                    <div class="caixa">
+                        <h2>Mundo</h2>
+
+                        <div class="caixa-conteudo">
+
+                            <!-- Abre lista-noticias -->
+                            <ul id="lista-noticias">
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                                        <h3>Novas tecnologias</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    </a>
+                                    <div class="clear-both"></div>
+                                </li>
+                            </ul>
+                            <!-- Fecha  lista-noticias -->
+
+                        </div>
+                    </div>
+                    <!-- Fecha caixa mundo - Primário -->
+
+                </div>
                 <!-- Fecha conteúdo primário -->
 
             </div>

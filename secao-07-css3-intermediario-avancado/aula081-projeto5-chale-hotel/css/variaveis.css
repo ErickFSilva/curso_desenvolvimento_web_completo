@@ -1,0 +1,25 @@
+/* VARIÁVEIS GLOBAIS */
+:root {
+    /* - CORES */
+
+    /* Branco */
+    --branco: #fff;
+
+    /* Preto */
+    --preto: #000;
+
+    /* Azuis */
+    --azul-1: #00f;
+    --azul-2: #4c4ceb;
+
+    /* Amarelos */
+    --amarelo-1: #ffff00;
+    --amarelo-2: #ede9cc;
+    --amarelo-3: #dbcd87;
+
+    /* Vermelhos */
+    --vermelho-1: #f00;
+    
+    /* Laranjados */
+    --laranjado-1: #ff6347;
+}

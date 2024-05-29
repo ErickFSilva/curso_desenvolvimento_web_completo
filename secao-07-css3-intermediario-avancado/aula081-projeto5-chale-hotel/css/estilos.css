@@ -19,15 +19,26 @@ body {
 
 /* TOPO */
 #topo {
+    position: relative;
     height: 15.4em;
     min-height: 250px;
     background-color: var(--amarelo-3);
 }
 
 #area-logo {
-    background-color: var(--laranjado-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal2.png) no-repeat;
 }
 
 #area-menu {
-    background-color: var(--azul-2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
 }

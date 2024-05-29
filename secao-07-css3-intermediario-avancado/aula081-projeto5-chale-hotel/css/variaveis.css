@@ -1,7 +1,6 @@
 /* VARIÁVEIS GLOBAIS */
 :root {
-    /* - CORES */
-
+    /* - CORES - */
     /* Branco */
     --branco: #fff;
 
@@ -10,7 +9,7 @@
 
     /* Azuis */
     --azul-1: #00f;
-    --azul-2: #4c4ceb;
+    --azul-2: #6969e7;
 
     /* Amarelos */
     --amarelo-1: #ffff00;
@@ -19,7 +18,5 @@
 
     /* Vermelhos */
     --vermelho-1: #f00;
-    
-    /* Laranjados */
-    --laranjado-1: #ff6347;
+    --vermelho-2: #ff6347;
 }

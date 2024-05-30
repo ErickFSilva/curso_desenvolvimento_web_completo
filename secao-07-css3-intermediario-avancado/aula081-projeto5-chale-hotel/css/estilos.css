@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
@@ -10,9 +11,17 @@ body {
     background: var(--branco) url(../imagens/bg.png);
 }
 
+a {
+    text-decoration: none;
+    color: var(--azul-3);
+}
+
 
 /* CONTAINER */
 #container {
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
     background-color: var(--amarelo-2);
 }
 
@@ -25,20 +34,78 @@ body {
     background-color: var(--amarelo-3);
 }
 
+
+/* ÁREA LOGO */
 #area-logo {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100%;
     height: 250px;
-    background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
 }
 
+#area-logo .logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    width: 151px;
+    height: 66px;
+    font-size: 0;
+    background: url(../imagens/logo.png) no-repeat;
+}
+
+
+/* ÁREA MENU */
 #area-menu {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 2;
     width: 450px;
     height: 250px;
     background: url(../imagens/topo-imagem-lateral.png) no-repeat;
 }
+
+#conteudo-menu {
+    margin: 15px 15px 0 90px;
+}
+
+#menu-locais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-top: 1px solid var(--amarelo-4);
+    border-bottom: 1px solid var(--amarelo-4);
+    font-size: 0.7em;
+}
+
+#menu-locais .locais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid var(--vermelho-1); */
+}
+
+#menu-locais .locais li:not(li:first-child) {
+    /* margin-left: 10px; */
+}
+
+#menu-locais .reserva {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: var(--amarelo-6);
+    background-color: var(--amarelo-7);
+}
+
+#menu-locais a {
+    color: var(--amarelo-5);
+}
+
+
+/* RESETS */
+.clear-both { clear: both; }

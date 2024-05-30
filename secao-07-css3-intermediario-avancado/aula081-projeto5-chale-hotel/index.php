@@ -13,21 +13,39 @@
 
     <!-- Abre container -->
     <div id="container">
-    
+
         <!-- Abre topo -->
         <div id="topo">
-        
+
             <!-- Abre área logo -->
             <div id="area-logo">
-                <h1>
+                <h1 class="logo">
                     <a href="">Chalé Hotel</a>
                 </h1>
             </div>
             <!-- Fecha área logo -->
 
-            <!-- Abre área manu -->
+            <!-- Abre área menu -->
             <div id="area-menu">
-                Menu
+
+                <!-- Abre conteúdo menu -->
+                <div id="conteudo-menu">
+                
+                    <!-- Abre menu locais -->
+                    <div id="menu-locais">
+                        <ul class="locais">
+                            <li><a href="hotel-rio-de-janeiro.php">Rio de Janeiro&nbsp;-&nbsp;</a></li>
+                            <li><a href="hotel-sao-paulo.php">São Paulo&nbsp;-&nbsp;</a></li>
+                            <li><a href="hotel-belo-horizonte.php">Belo Horizonte</a></li>
+                        </ul>
+
+                        <a href="" class="reserva">Reservar</a>
+                    </div>
+                    <!-- Fecha menu locais -->
+                
+                </div>
+                <!-- Fecha conteúdo menu -->
+
             </div>
             <!-- Fecha área menu -->
 

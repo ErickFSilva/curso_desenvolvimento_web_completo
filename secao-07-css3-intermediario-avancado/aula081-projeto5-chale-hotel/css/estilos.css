@@ -13,7 +13,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--azul-3);
+    color: var(--preto);
 }
 
 
@@ -91,10 +91,6 @@ a {
     /* border: 1px solid var(--vermelho-1); */
 }
 
-#menu-locais .locais li:not(li:first-child) {
-    /* margin-left: 10px; */
-}
-
 #menu-locais .reserva {
     padding: 5px 10px;
     text-transform: uppercase;
@@ -104,6 +100,106 @@ a {
 
 #menu-locais a {
     color: var(--amarelo-5);
+}
+
+#menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 15px;
+}
+
+#menu-principal .navegacao a {
+    display: inline;
+    padding: 5px 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: var(--amarelo-8);
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+#menu-principal .navegacao a:hover {
+    background-color: var(--amarelo-9);
+}
+
+#menu-principal img {
+    width: 60%;
+    opacity: 0.5;
+}
+
+
+/* ÁREA CONTEUDO */
+#area-conteudo {
+    display: flex;
+    flex-direction: row;
+    background: url(../imagens/bg-container.png) repeat-y center top;
+}
+
+#area-principal, 
+#area-lateral {
+    padding: 25px 20px 20px;
+    width: 50%;
+}
+
+
+/* ÁREA PRINCIPAL */
+#area-principal {
+    background: url(../imagens/bg-area-principal.png) repeat-x top left;
+}
+
+#area-principal h2 {
+    padding-bottom: 10px;
+    color: var(--amarelo-10);
+    font-size: 1.1em;
+}
+
+#area-principal p:not(p:last-child) {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+
+/* ÁREA LATERAL */
+#area-lateral {
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+}
+
+#area-lateral .beneficios li {
+    padding: 8px;
+    height: 6em;
+    border-bottom: 1px solid var(--amarelo-11);
+}
+
+#area-lateral .beneficios li:hover {
+    cursor: pointer;
+    background-color: var(--amarelo-13);
+}
+
+#area-lateral .beneficios li a h3 {
+    padding: 5px 0;
+    color: var(--amarelo-12);
+    font-size: 1em;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#area-lateral .beneficios li a p {
+    font-size: 0.8em;
+}
+
+#area-lateral .beneficios a img {
+    float: left;
+    margin-right: 8px;
+    width: 150px;
+}
+
+
+/* RODAPÉ */
+#rodape {
+    padding: 16px;
+    color: var(--amarelo-10);
+    background: var(--branco) url(../imagens/bg-rodape.png) repeat-x top;
 }
 
 

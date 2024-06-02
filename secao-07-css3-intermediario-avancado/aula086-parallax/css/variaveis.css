@@ -1,0 +1,19 @@
+:root {
+    /* BRANCO */
+    --branco: #fff;
+
+    /* PRETO */
+    --preto: #000;
+
+    /* CINZA */
+    --cinza01: #111;
+    --cinza07: #777;
+    
+    /* AMARELO */
+    --amarelo01: #ff0;
+    --amarelo02: #ffffaf;
+
+    /* AZUL */
+    --azul01: #00f;
+    --azul02: #1b323b;
+}

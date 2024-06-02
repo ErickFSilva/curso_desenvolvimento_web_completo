@@ -1,0 +1,84 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* CONTAINER */
+#container {
+    height: 100vh;
+    color: var(--cinza07);
+    font: 16px "Lato", sans-serif;
+    background-color: var(--amarelo02);
+}
+
+
+/* TÍTULO */
+.titulo {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 25px;
+    letter-spacing: 5px;
+    background-color: var(--cinza01);
+}
+
+
+/* CONTEÚDO */
+.conteudo {
+    padding: 50px 80px;
+    text-align: justify;
+    background-color: var(--branco);
+}
+
+.conteudo h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--cinza01);
+}
+
+.conteudo p:not(p:last-child) {
+    margin-bottom: 15px;
+}
+
+
+/* EFEITO */
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(../../../imagens/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(../../../imagens/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../../../imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../../../imagens/imagem4.jpg);
+}
+
+.caixa5 {
+    background-image: url(../../../imagens/imagem5.jpg);
+}
+
+.caixa6 {
+    background-image: url(../../../imagens/imagem6.jpg);
+}

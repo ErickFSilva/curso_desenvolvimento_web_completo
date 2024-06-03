@@ -1,0 +1,22 @@
+:root {
+    /* PRETO */
+    --preto-1: #000;
+    
+    /* BRANCO */
+    --branco-1: #fff;
+
+    /* AZUL */
+    --azul-1: #00f;
+    --azul-2: #4180c9;
+
+    /* VERMELHO */
+    --vermelho-1: #f00;
+
+    /* CINZA */
+    --cinza-1: #fafafa;
+    
+    /* VERDE */
+    --verde-1: #0f0;
+    --verde-2: #8ce78c;
+    --verde-3: #b9c941;
+}

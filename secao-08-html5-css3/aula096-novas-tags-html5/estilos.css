@@ -1,0 +1,21 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+header:not(article header, aside header), 
+nav, 
+article, 
+section, 
+aside, 
+footer {
+    padding: 10px;
+    border: 1px solid var(--cinza-ccc);
+    background-color: var(--cinza-f2);
+}

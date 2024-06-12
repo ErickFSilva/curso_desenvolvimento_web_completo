@@ -43,17 +43,23 @@
         </header>
         <!-- Fecha header (cabecalho) -->
 
+        <!-- Abre principal -->
         <div id="principal">
 
-            <div id="conteudo">
+            <!-- Abre conteudo -->
+            <section id="conteudo">
                 Conteúdo
-            </div>
+            </section>
+            <!-- Fecha conteudo -->
 
-            <aside>
+            <!-- Abre lateral -->
+            <aside id="lateral">
                 Lateral
             </aside>
+            <!-- Fecha lateral -->
 
         </div>
+        <!-- Fecha principal -->
 
     </div>
     <!-- Fecha container -->

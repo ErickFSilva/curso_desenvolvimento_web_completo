@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     padding: 15px 0;
     height: 55px;
-    border: 1px solid var(--vermelho-02);
+    /* border: 1px solid var(--vermelho-02); */
 }
 
 
@@ -76,15 +76,19 @@ nav ul a:hover {
 #principal {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     border: 1px solid var(--vermelho-02);
 }
 
 #conteudo {
     width: 710px;
+    border: 1px solid var(--vermelho-02);
     background-color: var(--verde-03);
 }
 
-aside {
+#lateral {
     width: 350px;
+    border: 1px solid var(--vermelho-02);
     background-color: var(--laranjado-03);
 }

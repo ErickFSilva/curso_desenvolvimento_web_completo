@@ -74,33 +74,77 @@ nav ul li a:hover {
 
 /* Principal
 ---------------------------------------- */
-#principal {
-    border: 1px dotted var(--verde-03);
-}
-
 #conteudo {
     width: 710px;
     float: left;
-    background-color: var(--verde);
 }
 
 aside {
     width: 350px;
     float: right;
     background-color: var(--laranjado-04);
+    padding-bottom: 30px;
 }
 
+/* Visita */
 section#visita {
     background: var(--roxo-01);
     padding: 10px 27px 27px;
     margin-top: 10px;
 }
 
+/* Galaria */
+section#galeria {
+    padding: 0 27px 0 27px;
+}
+
 section#galeria a {
     display: block;
     background: url(../imagens/fundo-foto.png) no-repeat;
-    border: 1px dotted var(--verde-03);
     float: left;
+    padding: 19px 15px;
+    margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+/* Vídeo */
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+/* Mapa */
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+/* Exposições */
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+/* Hítória */
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+/*  */
+h3 {
+    color: var(--verde-02);
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -115,14 +159,14 @@ h4 {
 ---------------------------------------- */
 input {
     height: 20px;
-    width: 80px;
+    width: 110px;
     background: var(--branco);
     border: none;
     font-size: 1em;
 }
 
-fieldset input[type="text"] {
-    width: 30px;
+fieldset input[type="number"] {
+    width: 42px;
 }
 
 input.campo {

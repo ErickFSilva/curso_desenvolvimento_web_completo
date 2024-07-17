@@ -54,7 +54,7 @@
                     <img src="imagens/museu.png" alt="museu">
                 </section>
                 <!-- Abre a seção da capa -->
-                
+
                 <!-- Abre seção postagens -->
                 <section id="postagens">
 
@@ -64,7 +64,7 @@
                         <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="Uma visita mediada ao Museu Nacional - UFRJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </article>
                     <!-- Fecha vídeo -->
-                    
+
                     <!-- Abre mapa -->
                     <article id="mapa">
                         <h3>Mapa: encontre o museu</h3>
@@ -153,6 +153,24 @@
 
             <!-- Limpa flutuação -->
             <div class="clear-both"></div>
+
+            <!-- Abre footer -->
+            <footer>
+                <p>
+                    <a href="index.php">Home</a>
+                    <a href="index.php">Exposições</a>
+                    <a href="index.php">Pesquisa</a>
+                    <a href="index.php">Acervo</a>
+                    <a href="index.php">Vídeos</a>
+                    <a href="index.php">Fotos</a>
+                    <a href="index.php">Contato</a>
+                </p>
+
+                <p>
+                    2019 <a href="index.php">Museu Nascional</a> - Todos os direitos reservados
+                </p>
+            </footer>
+            <!-- Fecha footer -->
 
         </div>
         <!-- Fecha principal -->

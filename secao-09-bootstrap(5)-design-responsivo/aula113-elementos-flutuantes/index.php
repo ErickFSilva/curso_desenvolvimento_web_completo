@@ -24,6 +24,16 @@
             </div>
 
             <div class="col-lg-6 border">
+                <h2 class="h4 my-3">Colar no topo (sticky)</h2>
+
+                <ul class="list-inline text-bg-warning sticky-top">
+                    <li class="list-inline-item">Item 1</li>
+                    <li class="list-inline-item">Item 2</li>
+                    <li class="list-inline-item">Item 3</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 border">
                 <h2 class="h4 my-3">Elementos flutuantes:</h2>
 
                 <div class="clearfix">
@@ -37,18 +47,44 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, tempore qui totam debitis placeat molestiae officia cupiditate pariatur, beatae neque tenetur similique suscipit inventore error doloremque nemo soluta, fuga minus?
                 </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit tempore, ad cumque minima dolorum omnis a tempora ut veritatis quibusdam dignissimos! Ea eos veritatis distinctio maxime suscipit laborum sed.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique molestias vero qui alias id tempora ipsam, dolor blanditiis amet non est beatae aliquid ullam, quidem recusandae sint, sit reiciendis nulla.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione consequatur animi provident? Totam voluptatem, magnam a eligendi rem reprehenderit, magni quia qui quidem voluptatibus, adipisci vel architecto at ipsam.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorem odit laborum adipisci dignissimos maiores voluptatem est non, necessitatibus illo, harum beatae molestias minima doloremque porro sapiente voluptatum exercitationem! Doloribus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi ad, obcaecati sint praesentium quia omnis reprehenderit facere neque nulla rerum dolore quibusdam explicabo illum quasi commodi mollitia, esse expedita?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo odio ea, delectus distinctio inventore, consequatur soluta minus est sunt vitae culpa, nemo ullam et. Amet deserunt minima quaerat ullam pariatur!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officiis iure, dolor repellat est, alias distinctio aliquid, possimus laborum voluptas aliquam? Iste accusantium quaerat tempore molestiae aliquid quisquam odio iusto!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quisquam libero minus modi molestias nobis enim, atque autem optio animi amet fugit quam assumenda vitae odio tempora et! Cum, debitis!
+                </p>
             </div>
 
             <div class="col-lg-6 border">
                 <h2 class="h4 my-3">Posicionamento fixo:</h2>
 
-                <article class="fixed-bottom">
-                    <h2>Artigo fixadona base</h2>
+                <div class="row">
+                    <article class="fixed-bottom col-5 ms-4 ps-5">
+                        <h2>Artigo fixado na base</h2>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam blanditiis magni! Iusto molestiae, eveniet vitae possimus a aliquid delectus expedita ipsam aspernatur, ducimus hic voluptate placeat, voluptatibus distinctio neque!
-                    </p>
-                </article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam blanditiis magni! Iusto molestiae, eveniet vitae possimus a aliquid delectus expedita ipsam aspernatur, ducimus hic voluptate placeat, voluptatibus distinctio neque!
+                        </p>
+                    </article>
+                </div>
             </div>
 
             <div class="col-lg-6 border">
@@ -66,16 +102,6 @@
                 <div class="clearfix">
                     <p class="float-xl-right">Tela &gt;=1200px (Extra Large)</p>
                 </div>
-            </div>
-
-            <div class="col-lg-6 border">
-                <h2 class="h4 my-3">Colar no topo (sticky)</h2>
-
-                <ul class="list-inline text-bg-warning sticky-top">
-                    <li class="list-inline-item">Item 1</li>
-                    <li class="list-inline-item">Item 2</li>
-                    <li class="list-inline-item">Item 3</li>
-                </ul>
             </div>
 
         </div>

@@ -39,7 +39,7 @@
                 <div class="text-bg-danger w-auto">Width auto</div>
             </div>
 
-            <div class="col-lg-6 border mb-3">
+            <div class="col-lg-6 border mb-3 caixa-height">
                 <h2 class="h4 my-3">Classes de altura</h2>
 
                 <div class="bg-warning d-inline-block h-25">Height 25%</div>
@@ -49,7 +49,26 @@
                 <div class="bg-warning d-inline-block h-auto">Height auto</div>
             </div>
 
-            <div class="col-lg-6 border mb-3"></div>
+            <div class="col-lg-6 border mb-3">
+                <h2 class="h4 my-3">Bordas</h2>
+
+                <div class="bg-white mb-2 border border-dark">Todas as bordas</div>
+                <div class="bg-white mb-2 border-top border-primary">Borda superior</div>
+                <div class="bg-white mb-2 border-bottom border-success">Borda inferior</div>
+                <div class="bg-white mb-2 border-end border-warning">Borda direita</div>
+                <div class="bg-white mb-2 border-start border-danger">Borda esquerda</div>
+            </div>
+
+            <div class="col-lg-6 border mb-3">
+                <h2 class="h4 my-3">Arredondamentos</h2>
+
+                <div class="text-bg-info mb-2 rounded">Rounded</div>
+                <div class="text-bg-white mb-2 border rounded-top">Rounded top</div>
+                <div class="text-bg-white mb-2 border rounded-bottom">Rounded bottom</div>
+                <div class="text-bg-white mb-2 border rounded-end">Rounded right</div>
+                <div class="text-bg-white mb-2 border rounded-start">Rounded left</div>
+                <div class="text-bg-warning mb-2 border rounded-circle">Rounded circle</div>
+            </div>
 
         </div>
     </div>

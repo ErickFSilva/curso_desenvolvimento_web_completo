@@ -7,7 +7,7 @@
     <title>Bootstrap</title>
 
     <!-- Bootstrap-4.6 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
 
     <!-- Ícones -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -26,39 +26,30 @@
         <div class="row">
 
             <div class="col-12 mb-3">
-                <h1 class="display-4 py-2 text-center border-bottom text-bg-primary">Margin e Padding</h1>
+                <h1 class="display-4 py-2 text-center border-bottom text-bg-primary">Tamanhos e bordas</h1>
             </div>
 
-            <div class="col-lg-6 border">
-                <h2 class="h4 my-3">Margin:</h2>
+            <div class="col-lg-6 border mb-3">
+                <h2 class="h4 my-3">Classes de largura:</h2>
 
-                <ul class="list-group border-bottom">
-                    <li class="list-group-item">mt - Margin top</li>
-                    <li class="list-group-item">mb - Margin bottom</li>
-                    <li class="list-group-item">ms - Margin start (left)</li>
-                    <li class="list-group-item">me - Margin end (right)</li>
-                    <li class="list-group-item">mx - Margin no eixo x (horizontal)</li>
-                    <li class="list-group-item">my - Margin no eixo y (vertical)</li>
-                    <li class="list-group-item">m - Margin em todos os lados</li>
-                    <li class="list-group-item">Valores utilizados são: 0 à 5. Medida definida em 'rem'</li>
-                </ul>
-
-                <div class="exemplos mb-4">
-                    <p class="text-bg-dark mt-1">Margin top 1 <i class="bi bi-arrow-up"></i></p>
-                    <p class="text-bg-secondary mt-2">Margin top 2 <i class="bi bi-arrow-up"></i></p>
-                    <p class="text-bg-success mt-3">Margin top 3 <i class="bi bi-arrow-up"></i></p>
-                    <p class="text-bg-warning mt-4">Margin top 4 <i class="bi bi-arrow-up"></i></p>
-                    <p class="text-bg-danger mt-5">Margin top 5 <i class="bi bi-arrow-up"></i></p>
-                </div>
-
-                <div class="exemplos">
-                    <p class="text-bg-info py-1">Padding Y 1 <i class="bi bi-arrows-expand"></i></p>
-                    <p class="text-bg-primary py-2">Padding Y 2 <i class="bi bi-arrows-expand"></i></p>
-                    <p class="text-bg-light py-3">Padding Y 3 <i class="bi bi-arrows-expand"></i></p>
-                    <p class="text-bg-dark py-4">Padding Y 4 <i class="bi bi-arrows-expand"></i></p>
-                    <p class="text-bg-secondary py-5">Padding Y 5 <i class="bi bi-arrows-expand"></i></p>
-                </div>
+                <div class="text-bg-success w-25">width 25%</div>
+                <div class="text-bg-primary w-50">Width 50%</div>
+                <div class="text-bg-info w-75">Width 75%</div>
+                <div class="text-bg-warning w-100">Width 100%</div>
+                <div class="text-bg-danger w-auto">Width auto</div>
             </div>
+
+            <div class="col-lg-6 border mb-3">
+                <h2 class="h4 my-3">Classes de altura</h2>
+
+                <div class="bg-warning d-inline-block h-25">Height 25%</div>
+                <div class="bg-warning d-inline-block h-50">Height 50%</div>
+                <div class="bg-warning d-inline-block h-75">Height 75%</div>
+                <div class="bg-warning d-inline-block h-100">Height 100%</div>
+                <div class="bg-warning d-inline-block h-auto">Height auto</div>
+            </div>
+
+            <div class="col-lg-6 border mb-3"></div>
 
         </div>
     </div>

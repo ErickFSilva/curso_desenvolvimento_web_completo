@@ -34,10 +34,12 @@
                     flex-column
             -->
 
+            
             <!-- Navegação simples ou com abas -->
-            <div class="col-lg-6 p-2 mb-3 border">
+            <div class="col-12 p-2 mb-3 border">
                 <h2 id="ancora-1" class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Navegação simples ou com abas:</h2>
 
+                <!-- Navegação -->
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a href="index.php#ancora-1" class="nav-link">Home</a>
@@ -78,11 +80,14 @@
                 </ul>
             </div>
 
+            
             <!-- Barra de navegação simples -->
-            <div class="col-lg-6 p-2 mb-3 border">
+            <div class="col-12 p-2 mb-3 border">
                 <h2 id="ancora-2" class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação simples:</h2>
 
-                <nav class="navbar bg-dark navbar-expand-md px-3" data-bs-theme="dark">
+                <!-- Navegação -->
+                <nav class="navbar bg-dark navbar-expand px-3" data-bs-theme="dark">
+
                     <!-- Logo -->
                     <a href="index.php#ancora-2" class="navbar-brand">Chalé Hotel</a>
 
@@ -92,32 +97,57 @@
                         <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Sobre</a></li>
                         <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Contado</a></li>
                     </ul>
+
                 </nav>
             </div>
 
+            
             <!-- Barra de navegação com menu responsivo -->
-            <div class="col-lg-6 p-2 mb-3 border">
+            <div class="col-12 p-2 mb-3 border">
                 <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação com menu responsivo:</h2>
 
+                <!-- Navegação -->
+                <nav class="navbar bg-light navbar-expand-md px-3" data-bs-theme="light">
+
+                    <!-- Logo -->
+                    <a href="index.php" class="navbar-brand">Navbar</a>
+
+                    <!-- Menu hanburguer -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarBotao">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navegação -->
+                    <div class="collapse navbar-collapse" id="navBarBotao">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="index.php" class="nav-link">Sobre</a></li>
+                            <li class="nav-item"><a href="index.php" class="nav-link">Contato</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+
+            
+            <!-- Barra de navegação com formulário -->
+            <div class="col-12 p-2 mb-3 border">
+                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação com formulário:</h2>
+
                 <!--  -->
             </div>
 
-            <!--  -->
-            <div class="col-lg-6 p-2 mb-3 border">
-                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">:</h2>
+            
+            <!-- Barra de navegação com menu dropdown -->
+            <div class="col-12 p-2 mb-3 border">
+                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação com menu dropdown:</h2>
 
                 <!--  -->
             </div>
 
+            
             <!--  -->
-            <div class="col-lg-6 p-2 mb-3 border">
-                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">:</h2>
-
-                <!--  -->
-            </div>
-
-            <!--  -->
-            <div class="col-lg-6 p-2 mb-3 border">
+            <div class="col-12 p-2 mb-3 border">
                 <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">:</h2>
 
                 <!--  -->

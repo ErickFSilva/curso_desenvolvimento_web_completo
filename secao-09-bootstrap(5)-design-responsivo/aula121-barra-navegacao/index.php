@@ -34,7 +34,7 @@
                     flex-column
             -->
 
-            
+
             <!-- Navegação simples ou com abas -->
             <div class="col-12 p-2 mb-3 border">
                 <h2 id="ancora-1" class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Navegação simples ou com abas:</h2>
@@ -80,31 +80,38 @@
                 </ul>
             </div>
 
-            
+
             <!-- Barra de navegação simples -->
             <div class="col-12 p-2 mb-3 border">
-                <h2 id="ancora-2" class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação simples:</h2>
+                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-2">Barra de navegação simples:</h2>
 
                 <!-- Navegação -->
-                <nav class="navbar bg-dark navbar-expand px-3" data-bs-theme="dark">
+                <nav class="navbar bg-dark navbar-expand-sm px-3" data-bs-theme="dark">
 
                     <!-- Logo -->
-                    <a href="index.php#ancora-2" class="navbar-brand">Chalé Hotel</a>
+                    <a class="navbar-brand" href="index.php#ancora-2">Chalé Hotel</a>
+
+                    <!-- Botão de navegação -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarDark">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
                     <!-- Navegação -->
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Sobre</a></li>
-                        <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Contado</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="navBarDark">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Sobre</a></li>
+                            <li class="nav-item"><a href="index.php#ancora-2" class="nav-link">Contado</a></li>
+                        </ul>
+                    </div>
 
                 </nav>
             </div>
 
-            
+
             <!-- Barra de navegação com menu responsivo -->
             <div class="col-12 p-2 mb-3 border">
-                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação com menu responsivo:</h2>
+                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-3">Barra de navegação com menu responsivo:</h2>
 
                 <!-- Navegação -->
                 <nav class="navbar bg-light navbar-expand-md px-3" data-bs-theme="light">
@@ -120,16 +127,27 @@
                     <!-- Navegação -->
                     <div class="collapse navbar-collapse" id="navBarBotao">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="index.php" class="nav-link">Sobre</a></li>
-                            <li class="nav-item"><a href="index.php" class="nav-link">Contato</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php#ancora-3">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php#ancora-3">Sobre</a></li>
+
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Serviços</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="index.php#ancora-3">Agendar</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="index.php#ancora-3">Consultar</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="index.php#ancora-3">Contato</a></li>
                         </ul>
                     </div>
 
                 </nav>
             </div>
 
-            
+
             <!-- Barra de navegação com formulário -->
             <div class="col-12 p-2 mb-3 border">
                 <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação com formulário:</h2>
@@ -137,18 +155,10 @@
                 <!--  -->
             </div>
 
-            
+
             <!-- Barra de navegação com menu dropdown -->
             <div class="col-12 p-2 mb-3 border">
                 <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">Barra de navegação com menu dropdown:</h2>
-
-                <!--  -->
-            </div>
-
-            
-            <!--  -->
-            <div class="col-12 p-2 mb-3 border">
-                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light">:</h2>
 
                 <!--  -->
             </div>

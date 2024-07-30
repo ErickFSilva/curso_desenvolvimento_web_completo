@@ -213,6 +213,124 @@
 
                 </nav>
             </div>
+
+            <!-- Cores -->
+            <!-- Opções: bg-primary, bg-secondary, bg-success, bg-info, bg-warning, bg-danger, bg-light, bg-dark -->
+            <div class="col-12 p-2 mb-3 border">
+                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-5">Cores nas barras de navegação:</h2>
+
+                <!-- Barra de navegação 1 -->
+                <nav class="navbar bg-success navbar-expand-sm px-3 rounded" data-bs-theme="dark">
+                    <a href="" class="navbar-brand">Chalé Hotel</a>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Barra de navegação 2 -->
+                <nav class="navbar bg-warning navbar-expand-sm my-2 px-3 rounded" data-bs-theme="light">
+                    <a href="" class="navbar-brand">Chalé Hotel</a>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Barra de navegação 3 -->
+                <nav class="navbar bg-primary navbar-expand-sm px-3 rounded" data-bs-theme="dark">
+                    <a href="" class="navbar-brand">Chalé Hotel</a>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Alinhamentos -->
+            <!-- Opções: fixed-top, fixed-bottom, sticky-top, sticky-bottom -->
+            <div class="col-12 p-2 mb-3 border">
+                <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-light" id="ancora-5">Alinhamentos:</h2>
+
+                <!-- Barra de navegação 1 -->
+                <nav class="navbar sticky-top bg-danger navbar-expand-sm px-3" data-bs-theme="dark">
+                    <a href="" class="navbar-brand">Chalé Hotel</a>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Conteúdo -->
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde corporis voluptas ex, facilis inventore suscipit rem doloremque. Omnis, placeat doloremque voluptatem expedita laborum tempore voluptate, possimus pariatur eius quos nemo!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in sequi optio incidunt esse nobis reiciendis, omnis explicabo est soluta illum, tenetur mollitia. Ad doloribus repellat maxime ut eligendi natus.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo accusamus distinctio, ipsum sint minus ad? Officia quis pariatur labore distinctio! Totam similique fugiat, odio id placeat rerum assumenda doloribus neque!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi repudiandae laboriosam facilis magni quia iusto provident iste in expedita, alias vel ut error quisquam consectetur, ipsum corporis quam illum libero.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, id quia ea voluptas dolore vel placeat laborum excepturi odio earum consequuntur? Perferendis harum exercitationem dignissimos ad! Est corporis obcaecati at.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde corporis voluptas ex, facilis inventore suscipit rem doloremque. Omnis, placeat doloremque voluptatem expedita laborum tempore voluptate, possimus pariatur eius quos nemo!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in sequi optio incidunt esse nobis reiciendis, omnis explicabo est soluta illum, tenetur mollitia. Ad doloribus repellat maxime ut eligendi natus.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo accusamus distinctio, ipsum sint minus ad? Officia quis pariatur labore distinctio! Totam similique fugiat, odio id placeat rerum assumenda doloribus neque!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi repudiandae laboriosam facilis magni quia iusto provident iste in expedita, alias vel ut error quisquam consectetur, ipsum corporis quam illum libero.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, id quia ea voluptas dolore vel placeat laborum excepturi odio earum consequuntur? Perferendis harum exercitationem dignissimos ad! Est corporis obcaecati at.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde corporis voluptas ex, facilis inventore suscipit rem doloremque. Omnis, placeat doloremque voluptatem expedita laborum tempore voluptate, possimus pariatur eius quos nemo!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum in sequi optio incidunt esse nobis reiciendis, omnis explicabo est soluta illum, tenetur mollitia. Ad doloribus repellat maxime ut eligendi natus.
+                </p>
+            </div>
         </div>
     </div>
 

@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <nav class="navbar fixed-top bg-info" data-bs-theme="light">
+            <nav class="navbar fixed-top bg-dark" data-bs-theme="dark">
                 <ul class="navbar-nav px-3">
                     <li class="navbar-item">
                         <a href="../../secao-09-bootstrap(5)-design-responsivo/" class="nav-link">Voltar</a>

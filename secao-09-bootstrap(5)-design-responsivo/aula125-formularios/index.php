@@ -38,76 +38,84 @@
 
         <form action="">
             <div class="row">
-                
+
                 <!-- Caixa de texto -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                <div class="col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">Caixa de texto:</h2>
 
-                    <div class="form-group mb-3">
+                    <div class="form-group">
                         <label for="usuario" class="form-label">Usuário</label>
                         <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Digite seu usuário">
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group mt-3">
                         <label for="email" class="form-label">E-mail</label>
-                        <input type="email" name="email" id="email" class="form-control form-control-sm" placeholder="Digite seu e-mail" value="email@dominio.com" disabled>
-                        <small class="form-text">E-mail padrão a ser utilizado</small>
+                        <input type="email" name="email" id="email" class="form-control form-control-sm" value="dev.desenvolvimento@empresa.com" placeholder="Digite seu e-mail" readonly>
+                        <small class="form-text">E-mail será validado</small>
                     </div>
                 </div>
 
                 <!-- Select -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                <div class="col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">Select:</h2>
 
                     <div class="form-group">
                         <label for="estados" class="form-label">Estados</label>
                         <select name="estados" id="estados" class="form-select">
                             <option selected>Selecione</option>
-                            <option value="acre">Acre</option>
-                            <option value="alagoas">Alagoas</option>
-                            <option value="amapa">Amapá</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="al">Alagoas</option>
+                            <option value="se">Sergipe</option>
+                            <option value="pb">Paraíba</option>
                         </select>
                     </div>
                 </div>
 
-                <!--  -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                <!-- Textarea -->
+                <div class="col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">Textarea:</h2>
 
-                    <div class="form-floating">
-                        <textarea name="mensagem" id="mensagem-area" class="form-control" placeholder="Mensagem aqui!"></textarea>
-                        <label for="mensagem-area">Mensagem</label>
+                    <div class="form-group">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" class="form-control" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-floating mt-3">
+                        <textarea name="mensagem2" id="mensagem2" class="form-control"></textarea>
+                        <label for="mensagem2" class="form-label">Mensagem</label>
+                    </div>
+                </div>
+
+                <!-- File input -->
+                <div class="col-lg-6 p-2 mb-3 border">
+                    <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">File input:</h2>
+
+                    <div class="form-group">
+                        <label for="arquivo" class="form-label">Arquivo</label>
+                        <input type="file" name="arquivo" id="arquivo" class="form-control">
                     </div>
                 </div>
 
                 <!--  -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                <div class="col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
 
 
                 </div>
 
                 <!--  -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                <div class="col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
 
 
                 </div>
 
                 <!--  -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                <div class="col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
 
 
                 </div>
-
-                <!--  -->
-                <div class="col-12 col-lg-6 p-2 mb-3 border">
-                    <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
-
-
-                </div>
-
             </div>
         </form>
 

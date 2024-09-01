@@ -33,51 +33,84 @@
     </div>
 
     <div class="container">
-        <div class="row">
 
-            <h1 class="display-4 border-bottom border-dark mb-3 pb-3 barra-grupo-lista">Formulários</h1>
+        <h1 class="display-4 border-bottom border-dark mb-3 pb-3 barra-grupo-lista">Formulários</h1>
 
-            <form action="">
-
+        <form action="">
+            <div class="row">
+                
                 <!-- Caixa de texto -->
-                <div class="col-12 p-2 mb-3 border">
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">Caixa de texto:</h2>
 
+                    <div class="form-group mb-3">
+                        <label for="usuario" class="form-label">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Digite seu usuário">
+                    </div>
+
                     <div class="form-group">
-                        <label for="usuario">Usuário</label>
-                        <input type="text" name="usuario" id="usuario" class="" placeholder="Digite seu usuário">
-                    </div>
-
-                    <div>
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" readonly>
-                        <small>E-mail será validado</small>
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" name="email" id="email" class="form-control form-control-sm" placeholder="Digite seu e-mail" value="email@dominio.com" disabled>
+                        <small class="form-text">E-mail padrão a ser utilizado</small>
                     </div>
                 </div>
 
+                <!-- Select -->
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                    <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">Select:</h2>
+
+                    <div class="form-group">
+                        <label for="estados" class="form-label">Estados</label>
+                        <select name="estados" id="estados" class="form-select">
+                            <option selected>Selecione</option>
+                            <option value="acre">Acre</option>
+                            <option value="alagoas">Alagoas</option>
+                            <option value="amapa">Amapá</option>
+                        </select>
+                    </div>
+                </div>
+
                 <!--  -->
-                <div class="col-12 p-2 mb-3 border">
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                    <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">Textarea:</h2>
+
+                    <div class="form-floating">
+                        <textarea name="mensagem" id="mensagem-area" class="form-control" placeholder="Mensagem aqui!"></textarea>
+                        <label for="mensagem-area">Mensagem</label>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
 
 
                 </div>
 
                 <!--  -->
-                <div class="col-12 p-2 mb-3 border">
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
 
 
                 </div>
 
                 <!--  -->
-                <div class="col-12 p-2 mb-3 border">
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
                     <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
 
 
                 </div>
 
-            </form>
-        </div>
+                <!--  -->
+                <div class="col-12 col-lg-6 p-2 mb-3 border">
+                    <h2 class="h3 mb-3 px-2 pb-2 text-secondary border-bottom border-light" id="ancora-1">:</h2>
+
+
+                </div>
+
+            </div>
+        </form>
+
     </div>
 
 </body>
